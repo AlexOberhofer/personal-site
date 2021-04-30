@@ -13,6 +13,10 @@ function App() {
       />
       <link
         rel="stylesheet"
+        href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css"
+      />
+      <link
+        rel="stylesheet"
         href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
         integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
       ></link>
@@ -59,67 +63,22 @@ function App() {
               href="https://linkedin.com/in/alex-oberhofer-5403bb143/"
             ></a>
           </div>
-
-          <div className="home-well-heading">
-            <p>
-              Click a button below to be taken to one of my code repositories:
-            </p>
-          </div>
-
-          <div className="pure-g home-well">
-            <div className="pure-u-1 pure-u-md-1-5">
-              <a
-                className="pure-button repo-button repo-button"
-                target="_blank"
-                href="https://github.com/AlexOberhofer/SDL2-GNUBoy"
-              >
-                SDL2 GNUBoy
-              </a>
-            </div>
-            <br />
-            <div className="pure-u-1 pure-u-md-1-5">
-              <a
-                className="pure-button repo-button"
-                target="_blank"
-                href="https://github.com/AlexOberhofer/Space-Invaders"
-              >
-                Space Invaders
-              </a>
-            </div>
-            <br />
-            <div className="pure-u-1 pure-u-md-1-5">
-              <a
-                className="pure-button repo-button"
-                target="_blank"
-                href="https://github.com/AlexOberhofer/Chip-8-Emulator"
-              >
-                Chip 8
-              </a>
-            </div>
-            <br />
-            <div className="pure-u-1 pure-u-md-1-5">
-              <a
-                className="pure-button repo-button"
-                target="_blank"
-                href="https://github.com/AlexOberhofer/sdl2-doom"
-              >
-                SDL2 DOOM
-              </a>
-            </div>
-            <br />
-            <div className="pure-u-1 pure-u-md-1-5">
-              <a
-                className="pure-button repo-button"
-                target="_blank"
-                href="https://github.com/AlexOberhofer/pylife"
-              >
-                Pylife
-              </a>
-            </div>
-            <br />
-          </div>
         </div>
-      </div>
+        <div className="home-well-heading">
+          <p>
+            Click a button below to be taken to one of my code repositories:
+          </p>
+        </div>
+
+        <div className="pure-g home-well">
+        <div className="pure-u-1 pure-u-md-1-5"><a className="pure-button repo-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/SDL2-GNUBoy">SDL2 GNUBoy</a></div>
+        <div className="pure-u-1 pure-u-md-1-5"><a className="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/Space-Invaders">Space Invaders</a></div>
+        <div className="pure-u-1 pure-u-md-1-5"><a className="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/Chip-8-Emulator">Chip 8</a></div>
+        <div className="pure-u-1 pure-u-md-1-5"><a className="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/sdl2-doom">SDL2 DOOM</a></div>
+        <div className="pure-u-1 pure-u-md-1-5"><a className="pure-button repo-button" target="_blank" href="https://github.com/AlexOberhofer/pylife">Pylife</a></div>
+    </div>
+
+      </div> 
     </div>
   );
 }
