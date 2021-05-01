@@ -5,6 +5,12 @@ import "../css/main.css";
 import { ReactElement } from "react";
 
 export const Footer = (): ReactElement => {
+
+  const getYear = (): number => {
+    let d = new Date();
+    return d.getFullYear();
+  }
+
   return (
     <>
       <div id="footer" className="footer">
@@ -29,7 +35,7 @@ export const Footer = (): ReactElement => {
             <div className="pure-u-1 pure-u-md-1-3">
                 <div className="footer-right">
                     Built with <a target="_blank" rel="noreferrer" href="https://purecss.io/">Pure.css</a> v2.0.3<br/>
-                    &copy; 2016-2021 Alex Oberhofer<br/>
+                    &copy; 2016-{getYear()} Alex Oberhofer<br/>
                 </div>
             </div>
 

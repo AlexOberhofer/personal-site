@@ -19,7 +19,6 @@ export const Gnuboy = (): ReactElement => {
           />
           <br />
         </div>
-
         <div className="gnuboy-body">
           <h1>GNUBoy </h1>
 
