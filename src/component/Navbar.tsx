@@ -70,7 +70,6 @@ export const Navbar = (): ReactElement => {
           </ul>
         </div>
       </div>
-      <script>doMenuMagic(this, this.document);</script>
     </>
   );
 };

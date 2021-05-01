@@ -59,29 +59,30 @@ export const Gnuboy = (): ReactElement => {
                     alt="Pokemon Yellow"  /> &nbsp; &nbsp;
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/supermarioland.PNG"
                     alt="Itsa me!"/> &nbsp; &nbsp;
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/tetris.PNG"/> &nbsp; &nbsp;
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/lemmings.PNG"/> &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/tetris.PNG"
+                alt="gameplay"/> &nbsp; &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/lemmings.PNG" alt="gameplay"/> &nbsp;
                 &nbsp;
             </div>
     
             <div >
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/drmario.PNG"/> &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/drmario.PNG" alt="gameplay"/> &nbsp;
                 &nbsp;
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/mspacman.PNG"/> &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/mspacman.PNG"alt="gameplay"/> &nbsp;
                 &nbsp;
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/zelda.PNG"/> &nbsp; &nbsp;
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/pkmncrystal.PNG"/> &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/zelda.PNG" alt="gameplay" /> &nbsp; &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/pkmncrystal.PNG" alt="gameplay"/> &nbsp;
                 &nbsp;
             </div>
     
             <div >
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/pacman.PNG"/> &nbsp; &nbsp;
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/supermariodeluxe.PNG"/>
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/pacman.PNG"alt="gameplay"/> &nbsp; &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/supermariodeluxe.PNG"alt="gameplay"/>
                 &nbsp; &nbsp;
             </div>
     
             <div >
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blargg.PNG"/> &nbsp; &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blargg.PNG"alt="gameplay"/> &nbsp; &nbsp;
             </div>
             &nbsp&nbsp
       </div>

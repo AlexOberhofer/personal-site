@@ -8,7 +8,6 @@ import InProgress from "./pages/InProgress";
 import "./index.css";
 import GnuboyPageContent from "./component/GnuboyPageContent";
 
-
 const App = (): ReactElement => {
   return (
     <>
