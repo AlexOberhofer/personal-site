@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomepageContent from "./component/HomepageContent";
 import ProjectsPageContent from "./component/ProjectPageContent";
 import InProgress from "./pages/InProgress";
-import "./index.css";
 import GnuboyPageContent from "./component/GnuboyPageContent";
 
 const App = (): ReactElement => {
