@@ -1,7 +1,6 @@
 import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
-import "../css/icono.min.css";
 import "../css/main.css";
 import "../images/html5.png";
 import { ReactElement } from "react";
@@ -52,7 +51,7 @@ export const Home = (): ReactElement => {
               target="_blank"
               rel="noreferrer"
               href="https://github.com/AlexOberhofer"
-            ></a>
+            ><br/></a>
           </div>
 
           <div className="pure-u-1-2 home-half">
@@ -63,7 +62,7 @@ export const Home = (): ReactElement => {
               target="_blank"
               rel="noreferrer"
               href="https://linkedin.com/in/alex-oberhofer-5403bb143/"
-            ></a>
+            ><br/></a>
           </div>
         </div>{" "}
         <br />
@@ -153,7 +152,8 @@ export const Home = (): ReactElement => {
             <a title="Go" target="_blank" rel="noreferrer" href="https://reactjs.org/">
                 <img className="homepage-logo pure-img" 
                 width="60"
-                src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/logo512.png" />
+                src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/logo512.png" 
+                alt="react"/>
             </a>
         </div>
     </div>

@@ -14,6 +14,7 @@ export const InProgress = (): ReactElement => {
           <img
             className="pure-img center"
             src="https://neelysnews.files.wordpress.com/2016/02/12.jpg?w=652&h=364"
+            alt="Mike Mulligan"
           />
         </div>
       </body>

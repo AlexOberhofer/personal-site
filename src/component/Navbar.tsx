@@ -1,24 +1,20 @@
 import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
-import "../css/icono.min.css";
 import "../css/main.css";
 import { ReactElement } from "react";
-import {
-  Link
-} from "react-router-dom";
 
 export const Navbar = (): ReactElement =>  {
   return (
     <>
       <div className="custom-menu-wrapped">
         <div className="pure-menu custom-menu custom-menu-top">
-          <a
+          <a href="/"
             className="pure-menu-link back-arrow"
           >
             &#9668;
           </a>
-          <a href="#" className="custom-menu-toggle" id="toggle">
+          <a href="/" className="custom-menu-toggle" id="toggle">
             <s className="bar"></s>
             <s className="bar"></s>
           </a>
@@ -54,7 +50,7 @@ export const Navbar = (): ReactElement =>  {
               </a>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="/about">
+              <a className="pure-menu-link" href="about">
                 About
               </a>
             </li>

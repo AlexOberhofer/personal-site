@@ -54,8 +54,9 @@ export const Projects = (): ReactElement => {
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/AlexOberhofer/Chip-8-Emulator"
-                  ></a>
+                  ><br/></a>
                 </div>
               </div>
 
@@ -113,8 +114,10 @@ export const Projects = (): ReactElement => {
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
+                    rel="noreferrer"
+                    
                     href="https://github.com/AlexOberhofer/Space-Invaders"
-                  ></a>
+                  ><br/></a>
                 </div>
               </div>
 
@@ -173,8 +176,9 @@ export const Projects = (): ReactElement => {
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
+                    rel="noreferrer"
                     href="https://github.com/AlexOberhofer/sdl2-doom"
-                  ></a>
+                  ><br/></a>
                 </div>
               </div>
 

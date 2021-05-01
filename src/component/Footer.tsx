@@ -1,7 +1,6 @@
 import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
-import "../css/icono.min.css";
 import "../css/main.css";
 import { ReactElement } from "react";
 
