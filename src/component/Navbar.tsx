@@ -4,6 +4,9 @@ import "../css/grids-responsive-min.css";
 import "../css/icono.min.css";
 import "../css/main.css";
 import { ReactElement } from "react";
+import {
+  Link
+} from "react-router-dom";
 
 export const Navbar = (): ReactElement =>  {
   return (
@@ -11,7 +14,6 @@ export const Navbar = (): ReactElement =>  {
       <div className="custom-menu-wrapped">
         <div className="pure-menu custom-menu custom-menu-top">
           <a
-            href="javascript:history.back()"
             className="pure-menu-link back-arrow"
           >
             &#9668;
@@ -47,8 +49,8 @@ export const Navbar = (): ReactElement =>  {
               </a>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="public/html/projects.html">
-                Other Projects
+              <a className="pure-menu-link">
+                <Link to="/projects">Projects</Link>
               </a>
             </li>
             <li className="pure-menu-item">

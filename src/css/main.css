@@ -200,6 +200,7 @@ div#home-well-div a:visited {
 
 /* Footer CSS */
 .footer{
+    display: flex;
     bottom: 0;
     width: 100%;     
     background: #2d3e50;
@@ -207,6 +208,9 @@ div#home-well-div a:visited {
     color: #fff;
     padding-bottom: 10px;
     font-size: 75%;
+    flex-direction: column;
+    position: fixed;
+    
 }  
 
 .footer-container{

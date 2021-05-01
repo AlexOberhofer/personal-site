@@ -8,6 +8,7 @@ import { ReactElement } from "react";
 
 export const Home = (): ReactElement => {
   return (
+    <>
     <div className="App">
       <link
         rel="stylesheet"
@@ -156,10 +157,12 @@ export const Home = (): ReactElement => {
             </a>
         </div>
     </div>
-
+      <p><small>Hopefully you don't see this text....</small></p>
       </div>
     </div>
+    </>
   );
+  
 }
 
 export default Home;

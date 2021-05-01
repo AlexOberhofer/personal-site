@@ -1,13 +1,16 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import ReactDOM from "react-dom";
-import HomepageContent from "./component/HomepageContent";
-import { ReactElement } from "react";
-import "./index.css";
 import { Helmet } from "react-helmet";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import HomepageContent from "./component/HomepageContent";
+import ProjectsPageContent from "./component/ProjectPageContent";
+import InProgress from "./pages/InProgress";
+import "./index.css";
+
 
 const App = (): ReactElement => {
   return (
-    <div>
+    <>
       <Helmet>
         <meta
           charSet="utf-8"
@@ -15,10 +18,23 @@ const App = (): ReactElement => {
           content="width=device-width, initial-scale=1"
         />
         <title>Alex Oberhofer</title>
-        <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-      <HomepageContent />
-    </div>
+
+      <Router>
+        <Switch>
+
+          <Route path="/projects">
+            <InProgress />
+          </Route>
+
+          <Route path="/">
+            <HomepageContent />
+          </Route>
+
+        </Switch>
+        
+      </Router>
+    </>
   );
 };
 
