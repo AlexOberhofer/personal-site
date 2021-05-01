@@ -3,8 +3,9 @@ import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/icono.min.css";
 import "../css/main.css";
+import { ReactElement } from "react";
 
-export function Navbar() {
+export const Navbar = (): ReactElement =>  {
   return (
     <>
       <div className="custom-menu-wrapped">

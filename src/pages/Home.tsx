@@ -1,11 +1,12 @@
-import "./css/pure-min.css";
-import "./css/normalize.css";
-import "./css/grids-responsive-min.css";
-import "./css/icono.min.css";
-import "./css/main.css";
-import "./images/html5.png";
+import "../css/pure-min.css";
+import "../css/normalize.css";
+import "../css/grids-responsive-min.css";
+import "../css/icono.min.css";
+import "../css/main.css";
+import "../images/html5.png";
+import { ReactElement } from "react";
 
-function App() {
+export const Home = (): ReactElement => {
   return (
     <div className="App">
       <link
@@ -154,4 +155,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

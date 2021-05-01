@@ -1,16 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import { Navbar } from './component/Navbar';
+import React from "react";
+import ReactDOM from "react-dom";
+import HomepageContent from "./component/HomepageContent";
+import Home from "./pages/Home";
+import "./index.css";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-    </head>
-    <Navbar />
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <HomepageContent />,
+  document.getElementById("root")
 );
