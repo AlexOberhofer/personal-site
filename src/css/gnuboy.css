@@ -4,3 +4,15 @@
     margin-right: auto;
     width: 50%;
 }
+
+.gnuboy-title {
+    text-align: center;
+    color: #2d3e50;
+}
+
+.gnuboy-top {
+    align-content: center;
+    vertical-align: middle;
+    align-self: center;
+    margin: 0 auto;
+}

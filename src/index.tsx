@@ -6,6 +6,7 @@ import HomepageContent from "./component/HomepageContent";
 import ProjectsPageContent from "./component/ProjectPageContent";
 import InProgress from "./pages/InProgress";
 import "./index.css";
+import GnuboyPageContent from "./component/GnuboyPageContent";
 
 
 const App = (): ReactElement => {
@@ -28,7 +29,7 @@ const App = (): ReactElement => {
           </Route>
 
           <Route path="/gnuboy">
-            <InProgress />
+            <GnuboyPageContent />
           </Route>
 
           <Route path="/about">

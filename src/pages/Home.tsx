@@ -2,27 +2,12 @@ import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
-import "../images/html5.png";
 import { ReactElement } from "react";
 
 export const Home = (): ReactElement => {
   return (
     <>
     <div className="App">
-      <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css"
-      />
-      <link
-        rel="stylesheet"
-        href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
-      ></link>
-      <script src="../public/javascript/scripts.js"></script>
 
       <div className="banner">
         <div id="banner-img" className="banner-head">
