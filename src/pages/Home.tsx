@@ -150,14 +150,14 @@ export const Home = (): ReactElement => {
             </a>
         </div>
         <div className="pure-u-1-4 home-quarter">
-            <a title="Go" target="_blank" rel="noreferrer" href="https://golang.org/">
-                <img className="homepage-logo pure-img" alt="golang" 
+            <a title="Go" target="_blank" rel="noreferrer" href="https://reactjs.org/">
+                <img className="homepage-logo pure-img" 
                 width="60"
-                src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/gopher.png" />
+                src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/logo512.png" />
             </a>
         </div>
     </div>
-      <p>&nbsp</p>
+      <p>&nbsp&nbsp</p>
       </div>
     </div>
     </>
