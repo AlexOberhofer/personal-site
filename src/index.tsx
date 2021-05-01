@@ -24,7 +24,7 @@ const App = (): ReactElement => {
         <Switch>
 
           <Route path="/projects">
-            <InProgress />
+            <ProjectsPageContent />
           </Route>
 
           <Route path="/gnuboy">
