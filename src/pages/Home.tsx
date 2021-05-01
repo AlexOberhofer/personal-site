@@ -157,7 +157,7 @@ export const Home = (): ReactElement => {
             </a>
         </div>
     </div>
-      <p><small>Hopefully you don't see this text....</small></p>
+      <p>&nbsp</p>
       </div>
     </div>
     </>

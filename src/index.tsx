@@ -27,6 +27,14 @@ const App = (): ReactElement => {
             <InProgress />
           </Route>
 
+          <Route path="/gnuboy">
+            <InProgress />
+          </Route>
+
+          <Route path="/about">
+            <InProgress />
+          </Route>
+
           <Route path="/">
             <HomepageContent />
           </Route>

@@ -44,17 +44,17 @@ export const Navbar = (): ReactElement =>  {
               </a>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="public/html/gnuboy.html">
+              <a className="pure-menu-link" href="/gnuboy">
                 GNUBoy
               </a>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link">
-                <Link to="/projects">Projects</Link>
+              <a className="pure-menu-link" href="/projects">
+                Projects
               </a>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="public/html/about.html">
+              <a className="pure-menu-link" href="/about">
                 About
               </a>
             </li>
