@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import HomepageContent from "./component/HomepageContent";
-import Home from "./pages/Home";
+import { ReactElement } from "react";
 import "./index.css";
 
-ReactDOM.render(
-    <HomepageContent />,
-  document.getElementById("root")
-);
+const App = (): ReactElement => {
+    return (
+      <HomepageContent />
+    )
+}
+
+ReactDOM.render(<App />,document.getElementById("root"));

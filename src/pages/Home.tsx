@@ -49,6 +49,7 @@ export const Home = (): ReactElement => {
               aria-hidden="true"
               title="Github"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/AlexOberhofer"
             ></a>
           </div>
@@ -59,6 +60,7 @@ export const Home = (): ReactElement => {
               aria-hidden="true"
               title="LinkedIn"
               target="_blank"
+              rel="noreferrer"
               href="https://linkedin.com/in/alex-oberhofer-5403bb143/"
             ></a>
           </div>
@@ -74,6 +76,7 @@ export const Home = (): ReactElement => {
             <a
               className="pure-button repo-button repo-button"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/AlexOberhofer/SDL2-GNUBoy"
             >
               SDL2 GNUBoy
@@ -83,6 +86,7 @@ export const Home = (): ReactElement => {
             <a
               className="pure-button repo-button"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/AlexOberhofer/Space-Invaders"
             >
               Space Invaders
@@ -92,6 +96,7 @@ export const Home = (): ReactElement => {
             <a
               className="pure-button repo-button"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/AlexOberhofer/Chip-8-Emulator"
             >
               Chip 8
@@ -101,6 +106,7 @@ export const Home = (): ReactElement => {
             <a
               className="pure-button repo-button"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/AlexOberhofer/sdl2-doom"
             >
               SDL2 DOOM
@@ -110,6 +116,7 @@ export const Home = (): ReactElement => {
             <a
               className="pure-button repo-button"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/AlexOberhofer/pylife"
             >
               Pylife
@@ -123,26 +130,26 @@ export const Home = (): ReactElement => {
 
         <div className="pure-g"> 
         <div className="pure-u-1-4 home-quarter">
-            <a target="_blank" href="http://www.w3.org/html/logo/">
+            <a target="_blank" rel="noreferrer" href="http://www.w3.org/html/logo/">
                 <img className="homepage-logo pure-img" src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/html5.png" width="110" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" />
             </a>
         </div>
         <div className="pure-u-1-4 home-quarter">
-            <a title="Pure CSS" target="_blank" href="https://purecss.io/">
+            <a title="Pure CSS" target="_blank" rel="noreferrer" href="https://purecss.io/">
                 <img className="homepage-logo pure-img" alt="golang" 
                 width="140"
                 src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/logo_pure.png" />
             </a>
         </div>
         <div className="pure-u-1-4 home-quarter">
-            <a title="Developers for Firefox" target="_blank" href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=Developers_For_Firefox_Dark">
+            <a title="Developers for Firefox" target="_blank" rel="noreferrer" href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=Developers_For_Firefox_Dark">
                 <img className="homepage-logo pure-img" alt="Developers for Firefox" 
                 width="55"
                 src="//code.cdn.mozilla.net/for-firefox/badges/assets/Developers_For_Firefox_Dark.png" />
             </a>
         </div>
         <div className="pure-u-1-4 home-quarter">
-            <a title="Go" target="_blank" href="https://golang.org/">
+            <a title="Go" target="_blank" rel="noreferrer" href="https://golang.org/">
                 <img className="homepage-logo pure-img" alt="golang" 
                 width="60"
                 src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/gopher.png" />

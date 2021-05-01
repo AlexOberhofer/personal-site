@@ -35,6 +35,7 @@ export const Navbar = (): ReactElement =>  {
               <a
                 className="pure-menu-link"
                 target="_blank"
+                rel="noreferrer"
                 href="https://github.com/AlexOberhofer"
               >
                 GitHub
