@@ -140,7 +140,7 @@ export const Home = (): ReactElement => {
             </a>
         </div>
     </div>
-      <p>&nbsp&nbsp</p>
+        <br></br><hr/><br></br>
       </div>
     </div>
     </>
