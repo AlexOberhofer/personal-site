@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import "../css/main.css";
-import me from "../images/Amoimg.jpg"
+import me from "../images/Amoimg.jpg";
 
 export const About = (): ReactElement => {
   return (
@@ -196,7 +196,7 @@ export const About = (): ReactElement => {
               </a>
             </li>
             <li>
-              <a href="public/images/poster_final_draft.pdf">
+              <a href="../images/poster_final_draft.pdf">
                 Senior Project - Catamount Egg Hunt
               </a>
             </li>
