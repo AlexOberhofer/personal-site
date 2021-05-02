@@ -2,9 +2,10 @@ import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
-import pure from "../images/logo_pure.png"
-import html5 from "../images/html5.png"
-import react from "../images/logo512.png"
+import pure from "../images/logo_pure.png";
+import html5 from "../images/html5.png";
+import react from "../images/logo512.png";
+import tsLogo from "../images/ts-logo-128.png";
 import { ReactElement } from "react";
 
 export const Home = (): ReactElement => {
@@ -117,26 +118,21 @@ export const Home = (): ReactElement => {
         <h5>This website is built with:</h5>
 
         <div className="pure-g"> 
-        <div className="pure-u-1-4 home-quarter">
-            <a target="_blank" rel="noreferrer" href="http://www.w3.org/html/logo/">
-                <img className="homepage-logo pure-img" src={html5} width="110" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" />
+        <div className="pure-u-1-3 home-quarter">
+            <a target="_blank" rel="noreferrer" href="https://www.typescriptlang.org/">
+                <img className="homepage-logo pure-img" alt="Typescript" 
+                width="55"
+                src={tsLogo} />
             </a>
         </div>
-        <div className="pure-u-1-4 home-quarter">
+        <div className="pure-u-1-3 home-quarter">
             <a title="Pure CSS" target="_blank" rel="noreferrer" href="https://purecss.io/">
                 <img className="homepage-logo pure-img" alt="pure" 
                 width="140"
                 src={pure} />
             </a>
         </div>
-        <div className="pure-u-1-4 home-quarter">
-            <a title="Developers for Firefox" target="_blank" rel="noreferrer" href="https://www.mozilla.org/firefox/this-browser-comes-highly-recommended/?utm_source=devs-for.firefox.com&utm_medium=referral&utm_campaign=devs-for-firefox&utm_content=Developers_For_Firefox_Dark">
-                <img className="homepage-logo pure-img" alt="Developers for Firefox" 
-                width="55"
-                src="//code.cdn.mozilla.net/for-firefox/badges/assets/Developers_For_Firefox_Dark.png" />
-            </a>
-        </div>
-        <div className="pure-u-1-4 home-quarter">
+        <div className="pure-u-1-3 home-quarter">
             <a title="Go" target="_blank" rel="noreferrer" href="https://reactjs.org/">
                 <img className="homepage-logo pure-img" 
                 width="60"
