@@ -10,7 +10,6 @@ export const AboutPageContent = (): ReactElement => {
       <body>
         <About />
       </body>
-      <Footer />
     </>
   );
 };
