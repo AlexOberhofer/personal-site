@@ -3,7 +3,6 @@ import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
 import pure from "../images/logo_pure.png";
-import html5 from "../images/html5.png";
 import react from "../images/logo512.png";
 import tsLogo from "../images/ts-logo-128.png";
 import { ReactElement } from "react";
@@ -16,7 +15,7 @@ export const Home = (): ReactElement => {
       <div className="banner">
         <div id="banner-img" className="banner-head">
           <p>Alex Oberhofer</p>
-          <p>Charlotte, NC Software Developer</p>
+          <p>Charlotte NC, Software Engineer</p>
         </div>
       </div>
 
@@ -25,7 +24,7 @@ export const Home = (): ReactElement => {
         <p>
           Welcome to my personal web page. This page hosts information on my
           software development projects and interests. Please check out my
-          GitHub page for my latest activity or my Linkedin for professional
+          GitHub page for my latest activity or my LinkedIn for professional
           inquiries.
         </p>
         <div className="home-well-heading">
@@ -106,9 +105,9 @@ export const Home = (): ReactElement => {
               className="pure-button repo-button"
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/AlexOberhofer/pylife"
+              href="https://github.com/AlexOberhofer/bytepusher"
             >
-              Pylife
+              Bytepusher
             </a>
           </div>
         </div>

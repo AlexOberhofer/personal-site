@@ -26,10 +26,70 @@ export const Projects = (): ReactElement => {
           More information about software licenses can be found here:{" "}
           <a href="https://choosealicense.com/licenses/">Choose a License</a>
         </p>
+        <hr/>
 
         <div className="chip-8-div">
           <h2>
-            <i className="fa fa-minus-square" aria-hidden="true"></i>Chip 8
+            SDL2-GNUBoy
+          </h2>
+          <div className="pure-g">
+            <div className="pure-u-1 pure-u-md-1-2">
+              <h4>Summary:</h4>
+              <p>
+                A modern port of the classic gnuboy emulator. For Windows and *nix.
+              </p>
+
+              <h4>Links:</h4>
+              <div className="pure-g">
+                <div className="pure-u-1 pure-u-md-1-2 proj-license">
+                  <a href="https://choosealicense.com/licenses/gpl-2.0/">
+                    <img alt="GPL" src="../images/badges/buttongnugpl.png" />
+                  </a>
+                </div>
+                <div className="pure-u-1 pure-u-md-1-2 proj-repo">
+                  <a
+                    className="fa fa-github-square fa-2x"
+                    aria-hidden="true"
+                    title="Github"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/AlexOberhofer/SDL2-GNUBoy"
+                  ><br/></a>
+                </div>
+              </div>
+
+              <h4>Project Ideas:</h4>
+              <ul>
+                <li>Port it to your favorite OS</li>
+                <li>Port it to a different rendering backend</li>
+                <li>Port it to the web with emscripten</li>
+              </ul>
+            </div>
+
+            <div className="pure-u-1 pure-u-md-1-2 project-img">
+              <br />
+              <b />
+              <br />
+              <img
+                src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blue.PNG"
+                width="300"
+                alt="sdl2gnuboy"
+              />
+              <br />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div className="project-spacer">
+          <hr />
+          <br />
+        </div>
+
+        <div className="chip-8-div">
+          <h2>
+            Chip 8
           </h2>
           <div className="pure-g">
             <div className="pure-u-1 pure-u-md-1-2">
@@ -85,14 +145,12 @@ export const Projects = (): ReactElement => {
         </div>
 
         <div className="project-spacer">
-          <br />
+          <hr />
           <br />
         </div>
 
         <div className="invaders-div">
-          <h2>
-            <i className="fa fa-minus-square" aria-hidden="true"></i>Space
-            Invaders
+          <h2>Space Invaders
           </h2>
           <div className="pure-g">
             <div className="pure-u-1 pure-u-md-1-2">
@@ -145,13 +203,13 @@ export const Projects = (): ReactElement => {
         </div>
 
         <div className="project-spacer">
-          <br />
+          <hr />
           <br />
         </div>
 
         <div className="doom-div">
           <h2>
-            <i className="fa fa-minus-square" aria-hidden="true"></i>DOOM
+            DOOM
           </h2>
           <div className="pure-g">
             <div className="pure-u-1 pure-u-md-1-2">
@@ -207,13 +265,13 @@ export const Projects = (): ReactElement => {
         </div>
 
         <div className="project-spacer">
-          <br />
+          <hr />
           <br />
         </div>
 
         <div className="pylife-class">
           <h2>
-            <i className="fa fa-minus-square" aria-hidden="true"></i>Pylife
+            Pylife
           </h2>
           <div className="pure-g">
             <div className="pure-u-1 pure-u-md-1-2">
@@ -236,14 +294,72 @@ export const Projects = (): ReactElement => {
               <img
                 src="https://raw.githubusercontent.com/AlexOberhofer/pylife/master/doc/conway.gif"
                 alt="Conway's Game of Life"
+                width="300"
               />
               <br />
               <br />
               <br />
             </div>
           </div>
-          <p>&nbsp</p>
         </div>
+
+        <div className="project-spacer">
+          <hr/>
+          <br />
+        </div>
+
+        <div className="bytepusher-div">
+          <h2>
+            Bytepusher
+          </h2>
+          <div className="pure-g">
+            <div className="pure-u-1 pure-u-md-1-2">
+              <h4>Summary:</h4>
+              <p>
+                A simple BytePusher implementation.<br/>
+                <a href="https://esolangs.org/wiki/BytePusher">BytePusher</a>
+              </p>
+
+              <h4>Links:</h4>
+              <div className="pure-g">
+                <div className="pure-u-1 pure-u-md-1-2 proj-license">
+                  <a href="https://choosealicense.com/licenses/gpl-3.0/">
+                    <img alt="GPL" src="../images/badges/buttongnugpl.png" />
+                  </a>
+                </div>
+                <div className="pure-u-1 pure-u-md-1-2 proj-repo">
+                  <a
+                    className="fa fa-github-square fa-2x"
+                    aria-hidden="true"
+                    title="Github"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/AlexOberhofer/bytepusher"
+                  ><br/></a>
+                </div>
+              </div>
+            </div>
+
+            <div className="pure-u-1 pure-u-md-1-2 project-img">
+              <br />
+              <b />
+              <br />
+              <img
+                src="https://raw.githubusercontent.com/AlexOberhofer/Bytepusher/master/doc/sprites.gif"
+                alt="bytepusher"
+              />
+              <br />
+              <br />
+              <br />
+            </div>
+          </div>
+        </div>
+
+        <div className="project-spacer">
+          <hr />
+          <br />
+        </div>
+
       </div>
     </>
   );

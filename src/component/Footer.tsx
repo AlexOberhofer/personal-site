@@ -22,7 +22,7 @@ export const Footer = (): ReactElement => {
 
           <div className="pure-u-1 pure-u-md-1-3">
                 <div className="footer-left">
-                    View this website on <a target="_blank" rel="noreferrer" href="https://github.com/AlexOberhofer/AlexOberhofer.github.io">GitHub</a><br />
+                    View this website on <a target="_blank" rel="noreferrer" href="https://github.com/AlexOberhofer/personal-site">GitHub</a><br />
                 </div>
             </div><br/><br/><br/>
 

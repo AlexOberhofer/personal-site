@@ -198,6 +198,12 @@ div#home-well-div a:visited {
     background: rgb(45, 62, 80); /* Fix this... probably read the docs... */
 }
 
+@media only screen and (max-width: 1334x) {
+    .footer {
+        display: none;
+    }
+}
+
 /* Footer CSS */
 .footer{
     display: flex;

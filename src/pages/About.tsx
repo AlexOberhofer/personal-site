@@ -11,12 +11,6 @@ export const About = (): ReactElement => {
         integrity="sha384-bfWZLPtvQKHg/nZNhaO/ZW4Ba8ISud5CtEjnCTU6OR1yOq5zrrF+JP2o7om6rzLf"
         crossOrigin="anonymous"
       />
-      <div className="sub-banner">
-        <p className="warning-bar">
-          WARNING!!! You are viewing a legacy page. This page will be upgraded
-          soon. Stay tuned!
-        </p>
-      </div>
       <h1 className="homepage-logo">About</h1>
       <div className="jumbotron container-fluid">
         <div className="container">
@@ -196,7 +190,7 @@ export const About = (): ReactElement => {
               </a>
             </li>
             <li>
-              <a href="../images/poster_final_draft.pdf">
+              <a href="https://github.com/AlexOberhofer/web-images/raw/master/images/poster_final_draft.pdf">
                 Senior Project - Catamount Egg Hunt
               </a>
             </li>
