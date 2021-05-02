@@ -4,8 +4,8 @@ import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomepageContent from "./component/HomepageContent";
 import ProjectsPageContent from "./component/ProjectPageContent";
-import InProgress from "./pages/InProgress";
 import GnuboyPageContent from "./component/GnuboyPageContent";
+import { AboutPageContent } from "./component/AboutPageContent";
 
 const App = (): ReactElement => {
   return (
@@ -31,7 +31,7 @@ const App = (): ReactElement => {
           </Route>
 
           <Route path="/about">
-            <InProgress />
+            <AboutPageContent />
           </Route>
 
           <Route path="/">

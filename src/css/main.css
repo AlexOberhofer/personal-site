@@ -439,3 +439,7 @@ div#footer a:visited {
     text-align: center;
     justify-content: center;
 }
+
+.about-me-image {
+    height: 350px;
+}
