@@ -1,5 +1,4 @@
 import { Navbar } from "./Navbar";
-import { Footer } from "./Footer";
 import { ReactElement } from "react";
 import { About } from "../pages/About";
 
