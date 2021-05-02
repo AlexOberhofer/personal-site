@@ -336,9 +336,17 @@ export const Projects = (): ReactElement => {
                     rel="noreferrer"
                     href="https://github.com/AlexOberhofer/bytepusher"
                   ><br/></a>
+                  
                 </div>
+                
               </div>
+              <h4>Project Ideas:</h4>
+              <ul>
+                <li>Port it</li>
+                <li>Rewrite it in another language</li>
+              </ul>
             </div>
+            
 
             <div className="pure-u-1 pure-u-md-1-2 project-img">
               <br />
