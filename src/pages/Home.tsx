@@ -2,6 +2,9 @@ import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
+import pure from "../images/logo_pure.png"
+import html5 from "../images/html5.png"
+import react from "../images/logo512.png"
 import { ReactElement } from "react";
 
 export const Home = (): ReactElement => {
@@ -116,14 +119,14 @@ export const Home = (): ReactElement => {
         <div className="pure-g"> 
         <div className="pure-u-1-4 home-quarter">
             <a target="_blank" rel="noreferrer" href="http://www.w3.org/html/logo/">
-                <img className="homepage-logo pure-img" src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/html5.png" width="110" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" />
+                <img className="homepage-logo pure-img" src={html5} width="110" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics" />
             </a>
         </div>
         <div className="pure-u-1-4 home-quarter">
             <a title="Pure CSS" target="_blank" rel="noreferrer" href="https://purecss.io/">
-                <img className="homepage-logo pure-img" alt="golang" 
+                <img className="homepage-logo pure-img" alt="pure" 
                 width="140"
-                src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/logo_pure.png" />
+                src={pure} />
             </a>
         </div>
         <div className="pure-u-1-4 home-quarter">
@@ -137,7 +140,7 @@ export const Home = (): ReactElement => {
             <a title="Go" target="_blank" rel="noreferrer" href="https://reactjs.org/">
                 <img className="homepage-logo pure-img" 
                 width="60"
-                src="https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/logo512.png" 
+                src={react} 
                 alt="react"/>
             </a>
         </div>

@@ -135,7 +135,7 @@ div#home-well-div a:visited {
 }
 
 .banner {
-    background: transparent url(https://raw.githubusercontent.com/AlexOberhofer/web-images/master/images/banner-min.jpg) 0 0;
+    background: transparent url(../images/banner-min.jpg) 0 0;
     text-align: center;
     background-size: cover;
     background-color: #2d3e50;
@@ -146,7 +146,7 @@ div#home-well-div a:visited {
 }
 
 .banner-proj {
-    background: transparent url(https://raw.githubusercontent.com/AlexOberhofer/web-images/master/banner-3.jpg) 0 0;
+    background: transparent url(../images/banner-2.JPG) 0 0;
     text-align: center;
     background-size: cover;
     background-color: #2d3e50;
