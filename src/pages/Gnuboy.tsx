@@ -19,7 +19,6 @@ export const Gnuboy = (): ReactElement => {
           />
           <br />
         </div>
-        <div className="gnuboy-body">
           <h1>GNUBoy </h1>
 
           <p>
@@ -52,19 +51,19 @@ export const Gnuboy = (): ReactElement => {
           </p>
         </div>
 
-        <h3 >Screenshots:</h3><br/>
-            <div  text-align="center">
+        <h3 className="gnuboy-title">Screenshots:</h3><br/>
+            <div className="gnuboy-img" text-align="center">
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/pkmnyellow.PNG"
                     alt="Pokemon Yellow"  /> &nbsp; &nbsp;
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/supermarioland.PNG"
                     alt="Itsa me!"/> &nbsp; &nbsp;
-                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/tetris.PNG"
+                <img  src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/tetris.PNG"
                 alt="gameplay"/> &nbsp; &nbsp;
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/lemmings.PNG" alt="gameplay"/> &nbsp;
                 &nbsp;
             </div>
     
-            <div >
+            <div className="gnuboy-img">
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/drmario.PNG" alt="gameplay"/> &nbsp;
                 &nbsp;
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/mspacman.PNG"alt="gameplay"/> &nbsp;
@@ -74,17 +73,17 @@ export const Gnuboy = (): ReactElement => {
                 &nbsp;
             </div>
     
-            <div >
+            <div className="gnuboy-img">
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/pacman.PNG"alt="gameplay"/> &nbsp; &nbsp;
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/supermariodeluxe.PNG"alt="gameplay"/>
                 &nbsp; &nbsp;
             </div>
     
-            <div >
+            <div className="gnuboy-img">
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blargg.PNG"alt="gameplay"/> &nbsp; &nbsp;
+                <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blue.PNG" height="315"alt="gameplay"/> &nbsp; &nbsp;
             </div>
             &nbsp&nbsp
-      </div>
     </>
   );
 };

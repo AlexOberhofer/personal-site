@@ -16,3 +16,12 @@
     align-self: center;
     margin: 0 auto;
 }
+
+.gnuboy-img {
+    align-self: center;
+    text-align: center;
+    vertical-align: middle;
+    display: grid;
+    flex-direction: row;
+    display: inline;
+}
