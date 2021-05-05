@@ -11,10 +11,7 @@ export const HomePageContent = (): ReactElement => {
       <body>
         <Home />
       </body>
-        <div>
-            <br/>
       <Footer />
-        </div>
     </>
   );
 };

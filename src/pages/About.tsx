@@ -28,7 +28,7 @@ export const About = (): ReactElement => {
               <br />
               <h2>Alex Oberhofer</h2>
               <h3>Charlotte, NC</h3>
-              <h4>Software Developer</h4>
+              <h4>Software Engineer</h4>
             </div>
 
             <div className="col-sm-4 well jumbo">
