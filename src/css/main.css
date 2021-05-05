@@ -8,6 +8,10 @@ body {
     flex: 1;
 }
 
+.footer {
+    flex: 1;
+}
+
 #major_links{
     font-size:1.75em
 }
@@ -213,17 +217,18 @@ div#home-well-div a:visited {
     background: #2d3e50;
     padding: 10px 0;
     color: #fff;
-    padding-bottom: 10px;
     font-size: 75%;
     flex-direction: column;
-    position: fixed;
+    position: relative;
     
 }  
 
 .footer-container{
     width: 60%;
     margin: 0 auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
     text-align: center;
     align-content: center;
 }

@@ -19,7 +19,7 @@ const App = (): ReactElement => {
         <title>Alex Oberhofer</title>
       </Helmet>
 
-      <Router>
+      <Router basename=".">
         <Switch>
 
           <Route path="/projects">

@@ -363,11 +363,6 @@ export const Projects = (): ReactElement => {
           </div>
         </div>
 
-        <div className="project-spacer">
-          <hr />
-          <br />
-        </div>
-
       </div>
     </>
   );

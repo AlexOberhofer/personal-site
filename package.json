@@ -1,6 +1,7 @@
 {
   "name": "personal-site",
   "homepage": ".",
+  "start_url": ".",
   "version": "0.1.0",
   "private": true,
   "start": "webpack-dev-server --inline --content-base . --history-api-fallback",

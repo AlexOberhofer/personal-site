@@ -7,10 +7,14 @@ export const HomePageContent = (): ReactElement => {
   return (
     <>
       <Navbar />
+        <br/>
       <body>
         <Home />
       </body>
+        <div>
+            <br/>
       <Footer />
+        </div>
     </>
   );
 };

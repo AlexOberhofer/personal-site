@@ -83,7 +83,7 @@ export const Gnuboy = (): ReactElement => {
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blargg.PNG"alt="gameplay"/> &nbsp; &nbsp;
                 <img src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blue.PNG" height="315"alt="gameplay"/> &nbsp; &nbsp;
             </div>
-            &nbsp&nbsp
+
     </>
   );
 };
