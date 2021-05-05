@@ -11,7 +11,7 @@ export const About = (): ReactElement => {
         integrity="sha384-bfWZLPtvQKHg/nZNhaO/ZW4Ba8ISud5CtEjnCTU6OR1yOq5zrrF+JP2o7om6rzLf"
         crossOrigin="anonymous"
       />
-      <h1 className="homepage-logo">About</h1>
+      <h1 className="page-title-text homepage-logo">About</h1>
       <div className="jumbotron container-fluid">
         <div className="container">
           <div className="row">

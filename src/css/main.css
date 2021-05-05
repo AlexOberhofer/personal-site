@@ -117,6 +117,12 @@ div#home-well-div a:visited {
     text-align: center;
 }
 
+.page-title-text {
+    text-align: center;
+    color: #2d3e50;
+    margin-top: 35px;
+}
+
 .image-license {
     font-size: 75%;   
 }
