@@ -29,7 +29,6 @@ export const Footer = (): ReactElement => {
             <div className="pure-u-1 pure-u-md-1-3">
                 <div className="footer-center">
                     &nbsp;&nbsp;<a href="https://www.kernel.org/"><img alt="Linux" src={linuxBadge} /></a>
-                    &nbsp;&nbsp;<a href="https://www.vim.org/"><img alt="Vim" src={vimBadge} /></a>
                     &nbsp;&nbsp;<a href="https://www.mozilla.org/en-US/firefox/developer/"><img alt="Firefox" src={firefoxBadge} /></a>
                 </div>
 
