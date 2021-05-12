@@ -1,16 +1,26 @@
-import { Navbar } from "./Navbar";
-import { ReactElement } from "react";
-import { About } from "../pages/About";
+import {Navbar} from "./Navbar";
+import {ReactElement} from "react";
+import {About} from "../pages/About";
+import styled from "styled-components";
+import Footer from "./Footer";
+
+const PageFlexCol = styled.div`
+  display: flex;
+  flex-direction: column;
+`
 
 export const AboutPageContent = (): ReactElement => {
-  return (
-    <>
-      <Navbar />
-      <body>
-        <About />
-      </body>
-    </>
-  );
+    return (
+        <>
+            <PageFlexCol>
+                <Navbar/>
+                    <body>
+                        <About/>
+                    </body>
+                <Footer/>
+            </PageFlexCol>
+        </>
+    );
 };
 
 export default AboutPageContent;
