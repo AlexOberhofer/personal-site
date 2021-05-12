@@ -216,7 +216,6 @@ export const About = (): ReactElement => {
           </p>
         </div>
       </div>
-      &nbsp
     </>
   );
 };

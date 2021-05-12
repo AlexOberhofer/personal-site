@@ -4,7 +4,6 @@ import "../css/grids-responsive-min.css";
 import "../css/main.css";
 import linuxBadge from "../images/badges/linux.png";
 import firefoxBadge from "../images/badges/get_firefox.png";
-import vimBadge from "../images/badges/vim_the_editor.png";
 import { ReactElement } from "react";
 
 export const Footer = (): ReactElement => {
