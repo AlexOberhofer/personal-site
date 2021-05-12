@@ -26,9 +26,10 @@ export const Home = (): ReactElement => {
                     GitHub page for my latest activity or my LinkedIn for professional
                     inquiries.
                 </p>
-                <p>This website is open source. The source code to this web application is available on my public
+                <p>The source code to this web application is available on my public
                 Github page.</p>
-                <p>Below are links to my Github and LinkedIn, as well a selection links to my Github projects.</p>
+                <p>Below are links to my Github and LinkedIn, as well a selection links to my Github projects. Resume
+                available upon request. <a href='/about'>Contact Information</a></p>
                 <div className="home-well-heading">
                     <p>Click an icon below to be taken my profile:</p>
                 </div>
