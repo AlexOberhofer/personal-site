@@ -8,7 +8,6 @@ const PageFlexCol = styled.div`
     display: flex;
     flex-direction: column;
 `
-
 export const HomePageContent = (): ReactElement => {
   return (
     <>
