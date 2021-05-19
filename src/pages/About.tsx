@@ -2,6 +2,9 @@ import {ReactElement} from "react";
 import "../css/main.css";
 import me from "../images/Amoimg.jpg";
 import styled from "styled-components";
+import "../css/pure-min.css";
+import "../css/normalize.css";
+import "../css/grids-responsive-min.css";
 
 const PictureBox = styled.div`
   display: flex;
@@ -15,10 +18,9 @@ const PictureBox = styled.div`
 
 const MyImage = styled.img`
   align-self: center;
-  height: 450px;
+  height: 350px;
   padding: 3rem;
-  margin-right: 15rem;
-  margin-left: 5rem;
+  margin: 5rem;
 `
 
 const ImageContainer = styled.div`
@@ -35,6 +37,7 @@ const PictureBoxText = styled.div`
   flex-direction: column;
   align-self: center;
   align-content: center;
+  padding: 3rem;
 `
 
 export const About = (): ReactElement => {
@@ -49,12 +52,12 @@ export const About = (): ReactElement => {
             <AboutHeader>About</AboutHeader>
 
 
-            <PictureBox>
-                <ImageContainer>
+            <PictureBox className="pure-g">
+                <ImageContainer className="pure-u-md-1-2">
                     <MyImage src={me} alt="me"/>
                 </ImageContainer>
 
-                <PictureBoxText>
+                <PictureBoxText className="pure-u-md-1-2">
                     <br/>
                     <br/>
                     <h2>Alex Oberhofer</h2>
