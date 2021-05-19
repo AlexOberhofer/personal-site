@@ -19,7 +19,6 @@ export const About = (): ReactElement => {
                     <div className="pure-u-1 pure-u-md-1-2">
                         <h1>Education</h1>
                         Sanderson High School - 2009-2013 <br/>
-                        <br/>
                         <a href="https://www.wcu.edu" target="_blank" rel="noreferrer">
                             Western Carolina University
                         </a>
@@ -72,23 +71,19 @@ export const About = (): ReactElement => {
                 <div className="">
 
                     <h1>Current:</h1>
-                    <br/>
                     <p>
                         I currently live in Charlotte, North Carolina, where I work as a
                         software engineer. My current research interests include hardware
                         emulation, Arduino, single board computers, operating systems, and
                         GNU/Linux Systems.
                     </p>
-                    <br/>
 
                     <h1>Development Interests:</h1>
-                    <br/>
                     <p>
                         I have numerous side projects I enjoy hacking on in my free time. I
                         generally devote my time to developing or porting retro gaming
                         software and emulators. You can check out some of my projects at my
                         github page on the sidebar.
-                        <br/>
                         <br/>
                         All of my projects are released under open source licenses. Please
                         feel free to exercise your rights within the terms of each projects'
@@ -96,7 +91,6 @@ export const About = (): ReactElement => {
                     </p>
 
                     <h1>Early Development Experience:</h1>
-                    <br/>
                     <p>
                         During my Senior year at WCU I worked as Research Technician for the
                         Program for the Study of Developed Shorelines. As a research
@@ -108,7 +102,6 @@ export const About = (): ReactElement => {
                         </a>{" "}
                         can be found on their website.
                     </p>
-                    <br/>
                     <p>
                         I was lucky enough to be offered 2 summer internships at{" "}
                         <a href="https://www.qualcomm.com/">Qualcomm</a> while I was
