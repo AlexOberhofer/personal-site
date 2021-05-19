@@ -1,10 +1,25 @@
 import {ReactElement} from "react";
 import "../css/main.css";
-import styled from "styled-components";
 import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
+import Alex from "../images/Amoimg.jpg"
+import styled from "styled-components";
 
+const AlexImg = styled.img`
+  width: 350px;
+  border-radius: 25px;
+`;
+
+const AboutImgContainer = styled.div`
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  margin: 1 rem;
+;
+`
 export const About = (): ReactElement => {
     return (
         <>
@@ -67,16 +82,27 @@ export const About = (): ReactElement => {
                     </div>
                 </div>
 
+                <div className="pure-g">
+                    <div className="pure-u-1 pure-u-md-1-2">
+                        <h1>Current:</h1>
+                        <p>
+                            I currently live in Charlotte, North Carolina, where I work as a
+                            software engineer. My current research interests include hardware
+                            emulation, Arduino, single board computers, operating systems, and
+                            GNU/Linux Systems. In my free time you can usually find me programming a side project,
+                            playing video games, fly fishing, or hanging out with my Australian Shepherd Brookie.
+                        </p>
+                        <p>
+                            No updates to any of my projects?... Probably fly fishing!
+                        </p>
+                    </div>
+                    <AboutImgContainer className="pure-u-1 pure-u-md-1-2">
+                        <AlexImg src={Alex}/>
+                    </AboutImgContainer>
+                </div>
 
-                <div className="">
+                <div className="about-text">
 
-                    <h1>Current:</h1>
-                    <p>
-                        I currently live in Charlotte, North Carolina, where I work as a
-                        software engineer. My current research interests include hardware
-                        emulation, Arduino, single board computers, operating systems, and
-                        GNU/Linux Systems.
-                    </p>
 
                     <h1>Development Interests:</h1>
                     <p>
