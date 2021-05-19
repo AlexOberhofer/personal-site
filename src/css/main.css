@@ -155,6 +155,17 @@ div#home-well-div a:visited {
     display: table;
 }
 
+.banner-about {
+    background: transparent url(../images/about-banner.jpg) 0 0;
+    text-align: center;
+    background-size: cover;
+    background-color: #2d3e50;
+    height: 600px;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
 .banner-proj {
     background: transparent url(../images/banner-2.JPG) 0 0;
     text-align: center;
@@ -182,7 +193,7 @@ div#home-well-div a:visited {
 .content {
     margin: 0 auto;
     padding: 0 2em;
-    max-width: 900px;
+    max-width: 1000px;
     line-height: 1.6em;
     color: #2d3e50;
 }
@@ -208,7 +219,7 @@ div#home-well-div a:visited {
     background: rgb(45, 62, 80); /* Fix this... probably read the docs... */
 }
 
-@media only screen and (max-width: 1334x) {
+@media only screen and (max-width: 1334px) {
     .footer {
         display: none;
     }

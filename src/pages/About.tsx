@@ -1,73 +1,75 @@
 import {ReactElement} from "react";
 import "../css/main.css";
-import me from "../images/Amoimg.jpg";
 import styled from "styled-components";
 import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 
-const PictureBox = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  background: #cccccc;
-  align-content: center;
-  width: 80%;
-  border-radius: 25px;
-`
-
-const MyImage = styled.img`
-  align-self: center;
-  height: 350px;
-  padding: 3rem;
-  margin: 5rem;
-`
-
-const ImageContainer = styled.div`
-  border-radius: 20px;
-`
-
-const AboutHeader = styled.h1`
-  text-align: center;
-  padding: 5rem;
-`
-
-const PictureBoxText = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  align-content: center;
-  padding: 3rem;
-`
-
 export const About = (): ReactElement => {
     return (
         <>
-            <link
-                rel="stylesheet"
-                href="https://stackpath.bootstrapcdn.com/bootswatch/3.4.1/flatly/bootstrap.min.css"
-                integrity="sha384-bfWZLPtvQKHg/nZNhaO/ZW4Ba8ISud5CtEjnCTU6OR1yOq5zrrF+JP2o7om6rzLf"
-                crossOrigin="anonymous"
-            />
-            <AboutHeader>About</AboutHeader>
+            <div className="banner-about">
+                <div id="banner-img" className="banner-head">
+                    <h2>About</h2>
+                </div>
+            </div>
+
+            <div className="content">
+                <div className="pure-g">
+                    <div className="pure-u-1 pure-u-md-1-2">
+                        <h1>Education</h1>
+                        Sanderson High School - 2009-2013 <br/>
+                        <br/>
+                        <a href="https://www.wcu.edu" target="_blank" rel="noreferrer">
+                            Western Carolina University
+                        </a>
+                        - 2013 - 2017
+                        <ul>
+                            <li>
+                                <a
+                                    href="https://www.wcu.edu/learn/programs/computer-science/index.aspx"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    B.S. Computer Science
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.wcu.edu/learn/departments-schools-colleges/cas/science-and-math/mathcsdept/"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                >
+                                    Mathematics Minor
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="pure-u-1 pure-u-md-1-2">
+                        <h1>Employment History</h1>
+                        <ul>
+                            <li>
+                                MIB | Software Engineer | 2021 - Present
+                                <br/>
+                            </li>
+                            <li>
+                                SCI Fusion360 | Staff Software Developer | 2021 - 2021
+                                <br/>
+                            </li>
+                            <li>
+                                SCI Fusion360 | Associate Software Developer | 2017 - 2021
+                                <br/>
+                            </li>
+                            <li>
+                                Program for the Study of Developed Shorelines | Web Developer |
+                                2016 - 2017 <br/>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
 
-            <PictureBox className="pure-g">
-                <ImageContainer className="pure-u-md-1-2">
-                    <MyImage src={me} alt="me"/>
-                </ImageContainer>
-
-                <PictureBoxText className="pure-u-md-1-2">
-                    <br/>
-                    <br/>
-                    <h2>Alex Oberhofer</h2>
-                    <h3>Charlotte, NC</h3>
-                    <h4>Software Engineer</h4>
-                </PictureBoxText>
-            </PictureBox>
-
-            <div>
-                <div className="col-sm-4 col-sm-offset-1">
+                <div className="">
 
                     <h1>Current:</h1>
                     <br/>
@@ -117,83 +119,6 @@ export const About = (): ReactElement => {
                         graduating from high school in 2013 I attended Western Carolina
                         University to study computer science and mathematics.
                     </p>
-                </div>
-
-                <div className="col-sm-4 col-sm-offset-1">
-                    <h1>Employment History</h1>
-                    <ul>
-                        <li>
-                            MIB | Software Engineer | 2021 - Present
-                            <br/>
-                        </li>
-                        <li>
-                            SCI Fusion360 | Staff Software Developer | 2021 - 2021
-                            <br/>
-                        </li>
-                        <li>
-                            SCI Fusion360 | Associate Software Developer | 2017 - 2021
-                            <br/>
-                        </li>
-                        <li>
-                            Program for the Study of Developed Shorelines | Web Developer |
-                            2016 - 2017 <br/>
-                        </li>
-                    </ul>
-                    <h1>Education</h1>
-                    Sanderson High School - 2009-2013 <br/>
-                    <br/>
-                    <a href="https://www.wcu.edu" target="_blank" rel="noreferrer">
-                        Western Carolina University
-                    </a>{" "}
-                    - 2013 - 2017
-                    <ul>
-                        <li>
-                            {" "}
-                            <a
-                                href="https://www.wcu.edu/learn/programs/computer-science/index.aspx"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                B.S. Computer Science
-                            </a>
-                        </li>
-                        <li>
-                            {" "}
-                            <a
-                                href="https://www.wcu.edu/learn/departments-schools-colleges/cas/science-and-math/mathcsdept/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                Mathematics Minor
-                            </a>
-                        </li>
-                    </ul>
-                    <h1>Project Links</h1>
-                    <ul className="list-unstyled">
-                        <li>
-                            <a href="https://github.com/AlexOberhofer/SDL2-GNUBoy">
-                                SDL2 GNUBoy
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/AlexOberhofer/sdl2-doom">SDL2 DOOM</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/AlexOberhofer/Space-Invaders">
-                                Space Invaders Arcade Emulator
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/AlexOberhofer/Chip-8-Emulator">
-                                Chip 8 Interpeter/Emulator
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/AlexOberhofer/web-images/raw/master/images/poster_final_draft.pdf">
-                                Senior Project - Catamount Egg Hunt
-                            </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
         </>
