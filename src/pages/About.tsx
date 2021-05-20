@@ -10,7 +10,6 @@ import { Mail } from "@styled-icons/heroicons-outline/Mail";
 import { Github } from "@styled-icons/bootstrap/Github";
 import { Gitlab } from "@styled-icons/fa-brands/Gitlab";
 import { Linkedin } from "@styled-icons/bootstrap/Linkedin";
-import Home from "./Home";
 
 const AlexImg = styled.img`
   width: 300px;
@@ -56,7 +55,7 @@ const IconContainer = styled.div`
   justify-content: center;
   padding-left: 5rem;
   padding-bottom: 2rem;
-  padding-right: 5rem;
+  margin-right: 5rem;
 `;
 
 const LinkIconContainer = styled.div`

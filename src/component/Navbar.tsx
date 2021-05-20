@@ -9,10 +9,6 @@ export const Navbar = (): ReactElement => {
     <>
       <link
         rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-      <link
-        rel="stylesheet"
         href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css"
       />
       <link

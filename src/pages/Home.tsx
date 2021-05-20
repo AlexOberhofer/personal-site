@@ -5,6 +5,9 @@ import "../css/main.css";
 import pure from "../images/logo_pure.png";
 import react from "../images/logo512.png";
 import tsLogo from "../images/ts-logo-128.png";
+import { Linkedin } from "@styled-icons/bootstrap/Linkedin";
+import { Github } from "@styled-icons/bootstrap/Github";
+import { Mail } from "@styled-icons/heroicons-outline/Mail";
 import {ReactElement} from "react";
 
 export const Home = (): ReactElement => {
@@ -32,7 +35,7 @@ export const Home = (): ReactElement => {
                 available upon request.<br/>
                 </p>
                 <p>
-                    <a href='/about'>Contact</a>
+                    Email Me: <a href="mailto:alexmoberhofer@gmail.com"><Mail height="30"/></a>
                 </p>
 
                 <div className="home-well-heading">
@@ -41,27 +44,27 @@ export const Home = (): ReactElement => {
                 <div className="pure-g home-well">
                     <div className="pure-u-1-2 home-half">
                         <a
-                            className="fa fa-github-square fa-5x"
+                            className=""
                             aria-hidden="true"
                             title="Github"
                             target="_blank"
                             rel="noreferrer"
                             href="https://github.com/AlexOberhofer"
-                        ><br/></a>
+                        ><br/><Github height="75" /></a>
                     </div>
 
                     <div className="pure-u-1-2 home-half">
                         <a
-                            className="fa fa-linkedin-square fa-5x"
+                            className=""
                             aria-hidden="true"
                             title="LinkedIn"
                             target="_blank"
                             rel="noreferrer"
                             href="https://linkedin.com/in/alex-oberhofer-5403bb143/"
-                        ><br/></a>
+                        ><br/><Linkedin height="75"/></a>
                     </div>
                 </div>
-                {" "}
+
                 <br/>
                 <div className="home-well-heading">
                     <p>
