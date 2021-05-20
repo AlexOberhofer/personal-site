@@ -3,36 +3,66 @@ import "../css/main.css";
 import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
-import Alex from "../images/Amoimg.jpg"
+import Alex from "../images/Amoimg.jpg";
+import Brookie from "../images/brookie.jpg";
 import styled from "styled-components";
 
 const AlexImg = styled.img`
-  width: 350px;
+  width: 300px;
   border-radius: 25px;
 `;
 
-const AboutImgContainer = styled.div`
+const BrookieImg = styled.img`
+  border-radius: 25px;
+  width: 250px;
+`
+
+const CenteredImgContainer = styled.div`
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   text-align: center;
-  margin: 1 rem;
-;
-`
+`;
+
+const ImageCaption = styled.p`
+    font-size: x-small;
+`;
+
+const AboutHeader = styled.h1`
+  text-align: center;
+`;
 export const About = (): ReactElement => {
     return (
         <>
             <div className="banner-about">
-                <div id="banner-img" className="banner-head">
-                    <h2>About</h2>
-                </div>
             </div>
 
             <div className="content">
+                <AboutHeader>About</AboutHeader>
                 <div className="pure-g">
                     <div className="pure-u-1 pure-u-md-1-2">
-                        <h1>Education</h1>
+                        <h3>Employment History</h3>
+                        <ul>
+                            <li>
+                                MIB | Software Engineer | 2021 - Present
+                                <br/>
+                            </li>
+                            <li>
+                                SCI Fusion360 | Staff Software Developer | 2021 - 2021
+                                <br/>
+                            </li>
+                            <li>
+                                SCI Fusion360 | Associate Software Developer | 2017 - 2021
+                                <br/>
+                            </li>
+                            <li>
+                                Program for the Study of Developed Shorelines | Web Developer |
+                                2016 - 2017 <br/>
+                            </li>
+                        </ul>
+
+                        <h3>Education</h3>
                         Sanderson High School - 2009-2013 <br/>
                         <a href="https://www.wcu.edu" target="_blank" rel="noreferrer">
                             Western Carolina University
@@ -60,25 +90,12 @@ export const About = (): ReactElement => {
                         </ul>
                     </div>
                     <div className="pure-u-1 pure-u-md-1-2">
-                        <h1>Employment History</h1>
-                        <ul>
-                            <li>
-                                MIB | Software Engineer | 2021 - Present
-                                <br/>
-                            </li>
-                            <li>
-                                SCI Fusion360 | Staff Software Developer | 2021 - 2021
-                                <br/>
-                            </li>
-                            <li>
-                                SCI Fusion360 | Associate Software Developer | 2017 - 2021
-                                <br/>
-                            </li>
-                            <li>
-                                Program for the Study of Developed Shorelines | Web Developer |
-                                2016 - 2017 <br/>
-                            </li>
-                        </ul>
+                        <CenteredImgContainer>
+                            <BrookieImg src={Brookie}/>
+                            <ImageCaption>
+                                Brookie the Aussie.
+                            </ImageCaption>
+                        </CenteredImgContainer>
                     </div>
                 </div>
 
@@ -96,9 +113,12 @@ export const About = (): ReactElement => {
                             No updates to any of my projects?... Probably fly fishing!
                         </p>
                     </div>
-                    <AboutImgContainer className="pure-u-1 pure-u-md-1-2">
+                    <CenteredImgContainer className="pure-u-1 pure-u-md-1-2">
                         <AlexImg src={Alex}/>
-                    </AboutImgContainer>
+                        <ImageCaption>
+                            Alex and Brookie fly fishing.
+                        </ImageCaption>
+                    </CenteredImgContainer>
                 </div>
 
                 <div className="about-text">
