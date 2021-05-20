@@ -5,6 +5,7 @@ import "../css/main.css";
 import { ReactElement } from "react";
 
 export const Navbar = (): ReactElement => {
+
   return (
     <>
       <link
@@ -16,16 +17,18 @@ export const Navbar = (): ReactElement => {
         href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
         integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
       ></link>
-      <script src="../public/javascript/scripts.js"></script>
 
       <div className="custom-menu-wrapped">
         <div className="pure-menu custom-menu custom-menu-top">
+          <a href="/"
+             className="pure-menu-link back-arrow">&#9668;</a>
+          <a href="/" className="custom-menu-toggle" id="toggle"><s className="bar"></s><s className="bar"></s></a>
         </div>
+
         <div
-          className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed custom-menu custom-menu-bottom"
-          id="tuckedMenu"
-        >
-          <ul className="pure-menu-list">
+            className="home-menu pure-menu pure-menu-horizontal pure-menu-fixed pure-menu-scrollable
+            custom-menu custom-menu-bottom">
+        <ul className="pure-menu-list">
             <li className="pure-menu-item">
               <a className="pure-menu-link" href="/">
                 Home
