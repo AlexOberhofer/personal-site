@@ -10,6 +10,7 @@ import { Mail } from "@styled-icons/heroicons-outline/Mail";
 import { Github } from "@styled-icons/bootstrap/Github";
 import { Gitlab } from "@styled-icons/fa-brands/Gitlab";
 import { Linkedin } from "@styled-icons/bootstrap/Linkedin";
+import Home from "./Home";
 
 const AlexImg = styled.img`
   width: 300px;
@@ -51,16 +52,14 @@ const LinksRow = styled.div`
 `;
 
 const IconContainer = styled.div`
-  max-width: 40px;
+  max-width: 45px;
+  justify-content: center;
+  padding-left: 5rem;
+  padding-bottom: 2rem;
+  padding-right: 5rem;
 `;
 
 const LinkIconContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  horiz-align: center;
   width: 50%;
 `;
 
@@ -71,7 +70,7 @@ export const About = (): ReactElement => {
             </div>
 
             <div className="content">
-                <AboutHeader>About</AboutHeader>
+                <AboutHeader>About Me</AboutHeader>
                 <div className="pure-g">
                     <div className="pure-u-1 pure-u-md-1-2">
                         <h3>Employment History</h3>
@@ -132,33 +131,33 @@ export const About = (): ReactElement => {
                 </div>
 
                 <LinksContainer>
-                    <h3>Links</h3>
+                    <h3>My Links</h3>
                     <LinksRow className="pure-g">
                         <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
                             <IconContainer>
-                                <Mail />
+                                <a href="mailto:alexmoberhofer@gmail.com"><Mail /></a>
+                            </IconContainer>
+                        </LinkIconContainer>
+                        <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
+                            <IconContainer>
+                                <a href="https://github.com/AlexOberhofer/"><Github /></a>
                             </IconContainer>
 
                         </LinkIconContainer>
                         <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
                             <IconContainer>
-                                <Github />
-                            </IconContainer>
-
-                        </LinkIconContainer>
-                        <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
-                            <IconContainer>
-                                <Gitlab />
+                                <a href="https://gitlab.com/AlexOberhofer"><Gitlab /></a>
                             </IconContainer>
                         </LinkIconContainer>
                         <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
                             <IconContainer>
-                                <Linkedin />
+                                <a href="https://linkedin.com/in/alex-oberhofer-5403bb143/"><Linkedin /></a>
                             </IconContainer>
                         </LinkIconContainer>
                     </LinksRow>
                 </LinksContainer>
 
+                <AboutHeader>My Interests</AboutHeader>
                 <CurrentContainer className="pure-g">
                     <div className="pure-u-1 pure-u-md-1-2">
                         <h1>Current:</h1>
@@ -166,8 +165,14 @@ export const About = (): ReactElement => {
                             I currently live in Charlotte, North Carolina, where I work as a
                             software engineer. My current research interests include hardware
                             emulation, Arduino, single board computers, operating systems, and
-                            GNU/Linux Systems. In my free time you can usually find me programming a side project,
-                            playing video games, fly fishing, or hanging out with my Australian Shepherd Brookie.
+                            GNU/Linux Systems. As of late my interests have also grown to include modern JavaScript
+                            / web development such as React, Typescript, and other web frameworks. I am also interested
+                            in Docker and it's possible uses to aid my development. In my free time you can usually
+                            find me programming a side project, playing video games, fly fishing, or hanging out
+                            with my Australian Shepherd Brookie.
+                        </p>
+                        <p>You can find my latest development experiments /
+                            projects <a href="https://github.com/AlexOberhofer/">here</a>.
                         </p>
                         <p>
                             No updates to any of my projects?... Probably fly fishing!
@@ -203,7 +208,7 @@ export const About = (): ReactElement => {
                         about the{" "}
                         <a href="http://psds.wcu.edu" target="_blank" rel="noreferrer">
                             PSDS
-                        </a>{" "}
+                        </a>
                         can be found on their website.
                     </p>
                     <p>
