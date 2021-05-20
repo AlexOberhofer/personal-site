@@ -6,6 +6,10 @@ import "../css/grids-responsive-min.css";
 import Alex from "../images/Amoimg.jpg";
 import Brookie from "../images/brookie.jpg";
 import styled from "styled-components";
+import { Mail } from "@styled-icons/heroicons-outline/Mail";
+import { Github } from "@styled-icons/bootstrap/Github";
+import { Gitlab } from "@styled-icons/fa-brands/Gitlab";
+import { Linkedin } from "@styled-icons/bootstrap/Linkedin";
 
 const AlexImg = styled.img`
   width: 300px;
@@ -25,13 +29,41 @@ const CenteredImgContainer = styled.div`
   text-align: center;
 `;
 
+const CurrentContainer = styled.div`
+  margin-top: 2rem;
+`;
+
 const ImageCaption = styled.p`
-    font-size: x-small;
+  font-size: x-small;
 `;
 
 const AboutHeader = styled.h1`
   text-align: center;
 `;
+
+const LinksContainer = styled.div`
+  text-align: center;
+`;
+
+const LinksRow = styled.div`
+  display: flex;
+  flex-direction: row;
+`;
+
+const IconContainer = styled.div`
+  max-width: 40px;
+`;
+
+const LinkIconContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  horiz-align: center;
+  width: 50%;
+`;
+
 export const About = (): ReactElement => {
     return (
         <>
@@ -91,15 +123,43 @@ export const About = (): ReactElement => {
                     </div>
                     <div className="pure-u-1 pure-u-md-1-2">
                         <CenteredImgContainer>
-                            <BrookieImg src={Brookie}/>
                             <ImageCaption>
                                 Brookie the Aussie.
                             </ImageCaption>
+                            <BrookieImg src={Brookie}/>
                         </CenteredImgContainer>
                     </div>
                 </div>
 
-                <div className="pure-g">
+                <LinksContainer>
+                    <h3>Links</h3>
+                    <LinksRow className="pure-g">
+                        <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
+                            <IconContainer>
+                                <Mail />
+                            </IconContainer>
+
+                        </LinkIconContainer>
+                        <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
+                            <IconContainer>
+                                <Github />
+                            </IconContainer>
+
+                        </LinkIconContainer>
+                        <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
+                            <IconContainer>
+                                <Gitlab />
+                            </IconContainer>
+                        </LinkIconContainer>
+                        <LinkIconContainer className="pure-u-1 pure-u-md-1-4">
+                            <IconContainer>
+                                <Linkedin />
+                            </IconContainer>
+                        </LinkIconContainer>
+                    </LinksRow>
+                </LinksContainer>
+
+                <CurrentContainer className="pure-g">
                     <div className="pure-u-1 pure-u-md-1-2">
                         <h1>Current:</h1>
                         <p>
@@ -119,11 +179,9 @@ export const About = (): ReactElement => {
                             Alex and Brookie fly fishing.
                         </ImageCaption>
                     </CenteredImgContainer>
-                </div>
+                </CurrentContainer>
 
                 <div className="about-text">
-
-
                     <h1>Development Interests:</h1>
                     <p>
                         I have numerous side projects I enjoy hacking on in my free time. I
