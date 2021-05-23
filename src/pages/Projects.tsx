@@ -4,6 +4,7 @@ import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
+import { Github } from "@styled-icons/bootstrap/Github";
 
 export const Projects = (): ReactElement => {
   return (
@@ -48,13 +49,12 @@ export const Projects = (): ReactElement => {
                 </div>
                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
                   <a
-                    className="fa fa-github-square fa-2x"
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/AlexOberhofer/SDL2-GNUBoy"
-                  ><br/></a>
+                  ><Github height="25"/></a>
                 </div>
               </div>
 
@@ -110,13 +110,12 @@ export const Projects = (): ReactElement => {
                 </div>
                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
                   <a
-                    className="fa fa-github-square fa-2x"
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/AlexOberhofer/Chip-8-Emulator"
-                  ><br/></a>
+                  ><Github height="25"/></a>
                 </div>
               </div>
 
@@ -168,14 +167,12 @@ export const Projects = (): ReactElement => {
                 </div>
                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
                   <a
-                    className="fa fa-github-square fa-2x"
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
                     rel="noreferrer"
-                    
                     href="https://github.com/AlexOberhofer/Space-Invaders"
-                  ><br/></a>
+                  ><Github height="25"/></a>
                 </div>
               </div>
 
@@ -230,13 +227,12 @@ export const Projects = (): ReactElement => {
                 </div>
                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
                   <a
-                    className="fa fa-github-square fa-2x"
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/AlexOberhofer/sdl2-doom"
-                  ><br/></a>
+                  ><Github height="25"/></a>
                 </div>
               </div>
 
@@ -329,14 +325,12 @@ export const Projects = (): ReactElement => {
                 </div>
                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
                   <a
-                    className="fa fa-github-square fa-2x"
                     aria-hidden="true"
                     title="Github"
                     target="_blank"
                     rel="noreferrer"
                     href="https://github.com/AlexOberhofer/bytepusher"
-                  ><br/></a>
-                  
+                  ><Github height="25"/></a>
                 </div>
                 
               </div>
