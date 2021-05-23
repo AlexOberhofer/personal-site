@@ -6,6 +6,7 @@ import HomepageContent from "./component/HomepageContent";
 import ProjectsPageContent from "./component/ProjectPageContent";
 import GnuboyPageContent from "./component/GnuboyPageContent";
 import { AboutPageContent } from "./component/AboutPageContent";
+import Icon from "./images/icon.png"
 
 const App = (): ReactElement => {
   return (
@@ -16,6 +17,7 @@ const App = (): ReactElement => {
           name="viewport"
           content="width=device-width, initial-scale=1"
         />
+        <link rel="icon" type="image/png" href={Icon} sizes="16x16" />
         <title>Alex Oberhofer</title>
       </Helmet>
 
