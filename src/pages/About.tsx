@@ -43,6 +43,8 @@ const AboutHeader = styled.h1`
 
 const LinksContainer = styled.div`
   text-align: center;
+  border: solid;
+  color: #2d3e50;
 `;
 
 const LinksRow = styled.div`
@@ -119,14 +121,12 @@ export const About = (): ReactElement => {
                             </li>
                         </ul>
                     </div>
-                    <div className="pure-u-1 pure-u-md-1-2">
-                        <CenteredImgContainer>
+                        <CenteredImgContainer className="pure-u-1 pure-u-md-1-2">
+                            <AlexImg src={Alex}/>
                             <ImageCaption>
-                                Brookie the Aussie.
+                                Alex and Brookie fly fishing.
                             </ImageCaption>
-                            <BrookieImg src={Brookie}/>
                         </CenteredImgContainer>
-                    </div>
                 </div>
 
                 <LinksContainer>
@@ -155,6 +155,7 @@ export const About = (): ReactElement => {
                         </LinkIconContainer>
                     </LinksRow>
                 </LinksContainer>
+                <br/>
 
                 <AboutHeader>My Interests</AboutHeader>
                 <CurrentContainer className="pure-g">
@@ -174,15 +175,17 @@ export const About = (): ReactElement => {
                             projects <a href="https://github.com/AlexOberhofer/">here</a>.
                         </p>
                         <p>
-                            No updates to any of my projects?... Probably fly fishing!
+                            No updates to any of my projects?... Probably fly fishing...
                         </p>
                     </div>
+
                     <CenteredImgContainer className="pure-u-1 pure-u-md-1-2">
-                        <AlexImg src={Alex}/>
                         <ImageCaption>
-                            Alex and Brookie fly fishing.
+                            Brookie the Aussie.
                         </ImageCaption>
+                        <BrookieImg src={Brookie}/>
                     </CenteredImgContainer>
+
                 </CurrentContainer>
 
                 <div className="about-text">
@@ -222,6 +225,7 @@ export const About = (): ReactElement => {
                     </p>
                 </div>
             </div>
+            <br />
         </>
     );
 };
