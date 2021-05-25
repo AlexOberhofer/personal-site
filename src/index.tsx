@@ -21,13 +21,13 @@ const App = (): ReactElement => {
         <title>Alex Oberhofer</title>
       </Helmet>
 
-      <Router >
+      <Router basename="/">
         <Switch>
 
           <Route path="/projects">
             <ProjectsPageContent />
           </Route>
-
+z
           <Route path="/gnuboy">
             <GnuboyPageContent />
           </Route>
@@ -36,7 +36,7 @@ const App = (): ReactElement => {
             <AboutPageContent />
           </Route>
 
-          <Route path="/">
+          <Route exact path="/">
             <HomepageContent />
           </Route>
 
