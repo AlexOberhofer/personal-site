@@ -3,6 +3,7 @@ import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
 import { ReactElement } from "react";
+import { Link } from "react-router-dom";
 
 export const Navbar = (): ReactElement => {
 
@@ -30,24 +31,16 @@ export const Navbar = (): ReactElement => {
             custom-menu custom-menu-bottom">
         <ul className="pure-menu-list">
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="/">
-                Home
-              </a>
+                <Link className="pure-menu-link" to="/">Home</Link>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="/gnuboy">
-                GNUBoy
-              </a>
+                <Link className="pure-menu-link" to="/gnuboy">GNUBoy</Link>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="/projects">
-                Projects
-              </a>
+                <Link className="pure-menu-link" to="/projects">Projects</Link>
             </li>
             <li className="pure-menu-item">
-              <a className="pure-menu-link" href="about">
-                About
-              </a>
+                <Link className="pure-menu-link" to="/about">About</Link>
             </li>
             <li className="pure-menu-item">
               <a

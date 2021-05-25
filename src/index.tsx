@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 import ReactDOM from "react-dom";
 import { Helmet } from "react-helmet";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import HomepageContent from "./component/HomepageContent";
 import ProjectsPageContent from "./component/ProjectPageContent";
 import GnuboyPageContent from "./component/GnuboyPageContent";
@@ -21,7 +21,7 @@ const App = (): ReactElement => {
         <title>Alex Oberhofer</title>
       </Helmet>
 
-      <Router basename=".">
+      <Router >
         <Switch>
 
           <Route path="/projects">
