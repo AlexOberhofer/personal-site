@@ -10,15 +10,6 @@ export const Gnuboy = (): ReactElement => {
     <>
       <h1 className="gnuboy-title">SDL2 GNUBoy Port </h1>
       <div className="content">
-        <div className="center gnuboy-heading">
-          <br />
-          <img
-            className="gnuboy-top"
-            src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/crystal.gif"
-            alt="GNUBoy Running"
-          />
-          <br />
-        </div>
           <h1>GNUBoy </h1>
 
           <p>
