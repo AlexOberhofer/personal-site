@@ -6,7 +6,7 @@ import HomepageContent from "./component/HomepageContent";
 import ProjectsPageContent from "./component/ProjectPageContent";
 import GnuboyPageContent from "./component/GnuboyPageContent";
 import { AboutPageContent } from "./component/AboutPageContent";
-import Icon from "./images/icon.png"
+import Icon from "./images/icon.png";
 
 const App = (): ReactElement => {
   return (

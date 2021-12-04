@@ -17,7 +17,7 @@ export const Home = (): ReactElement => {
             <div className="banner">
                 <div id="banner-img" className="banner-head">
                     <p>Alex Oberhofer</p>
-                    <p>Charlotte NC, Software Engineer</p>
+                    <p>Asheville NC, Software Engineer</p>
                 </div>
             </div>
 
