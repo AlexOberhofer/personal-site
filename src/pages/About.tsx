@@ -3,8 +3,8 @@ import "../css/main.css";
 import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
-import Alex from "../images/Amoimg.jpg";
-import Brookie from "../images/brookie.jpg";
+import Alex from '../images/Amoimg.jpg';
+import Brookie from '../images/brookie.jpg';
 import styled from "styled-components";
 import { Mail } from "@styled-icons/heroicons-outline/Mail";
 import { Github } from "@styled-icons/bootstrap/Github";
@@ -68,6 +68,7 @@ export const About = (): ReactElement => {
     return (
         <>
             <div className="banner-about">
+                <div id="banner-img" className="banner-head" />
             </div>
 
             <div className="content">

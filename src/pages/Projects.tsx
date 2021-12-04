@@ -10,7 +10,7 @@ export const Projects = (): ReactElement => {
     return (
         <>
             <div className="banner-proj">
-                <div id="banner-img" className="banner-head"></div>
+                <div id="banner-img" className="banner-head" />
             </div>
 
             <div className="content">

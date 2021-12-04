@@ -9,7 +9,7 @@ services:
     volumes:
       - ./:/home/node/app
     expose:
-      - "5000"
+      - "3000"
     ports:
-      - "8080:5000"
+      - "8080:3000"
     command: "npm run deploy"
