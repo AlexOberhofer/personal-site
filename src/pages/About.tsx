@@ -163,7 +163,7 @@ export const About = (): ReactElement => {
                     <div className="pure-u-1 pure-u-md-1-2">
                         <h1>Current:</h1>
                         <p>
-                            I currently live in Charlotte, North Carolina, where I work as a
+                            I currently live in Arden, North Carolina, where I work as a
                             software engineer. My current research interests include hardware
                             emulation, Arduino, single board computers, operating systems, and
                             GNU/Linux Systems. As of late my interests have also grown to include modern JavaScript
