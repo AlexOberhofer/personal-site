@@ -27,7 +27,7 @@ const App = (): ReactElement => {
           <Route path="/projects">
             <ProjectsPageContent />
           </Route>
-z
+
           <Route path="/gnuboy">
             <GnuboyPageContent />
           </Route>
