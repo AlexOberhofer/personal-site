@@ -29,8 +29,8 @@ export const Home = (): ReactElement => {
                     GitHub page for my latest activity or my LinkedIn for professional
                     inquiries.
                 </p>
-                <p>The source code to this web application is available on my public
-                Github page.</p>
+                <p>The source code to this web page is available in a public Github repository.</p>
+
                 <p>Below are links to my Github and LinkedIn, as well a selection links to my Github projects. Resume
                 available upon request.<br/>
                 </p>

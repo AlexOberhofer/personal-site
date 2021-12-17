@@ -19,6 +19,8 @@
 }
 
 .gnuboy-img {
+    margin-top: 5px;
+    margin-bottom: 5px;
     align-self: center;
     text-align: center;
     vertical-align: middle;

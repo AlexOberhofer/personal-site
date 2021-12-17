@@ -167,10 +167,10 @@ export const About = (): ReactElement => {
                             software engineer. My current research interests include hardware
                             emulation, Arduino, single board computers, operating systems, and
                             GNU/Linux Systems. As of late my interests have also grown to include modern JavaScript
-                            / web development such as React, Typescript, and other web frameworks. I am also interested
-                            in Docker and it's possible uses to aid my development. In my free time you can usually
-                            find me programming a side project, playing video games, fly fishing, or hanging out
-                            with my Australian Shepherd Brookie.
+                            / web development tools such as React, Typescript, and other web frameworks.
+                            I am also interested in Docker and it's possible uses to aid my development.
+                            In my free time you can usually find me programming a side project, playing video games,
+                            fly fishing, or hanging out with my Australian Shepherd Brookie.
                         </p>
                         <p>You can find my latest development experiments /
                             projects <a href="https://github.com/AlexOberhofer/">here</a>.
@@ -196,7 +196,9 @@ export const About = (): ReactElement => {
                         generally devote my time to developing or porting retro gaming
                         software and emulators. You can check out some of my projects at my
                         github page on the sidebar.
-                        <br/>
+                    </p>
+
+                    <p>
                         All of my projects are released under open source licenses. Please
                         feel free to exercise your rights within the terms of each projects'
                         license when using the code. Enjoy!
@@ -210,7 +212,7 @@ export const About = (): ReactElement => {
                         Nourishment Viewer web application in node.js. More information
                         about the{" "}
                         <a href="http://psds.wcu.edu" target="_blank" rel="noreferrer">
-                            PSDS
+                            PSDS{" "}
                         </a>
                         can be found on their website.
                     </p>

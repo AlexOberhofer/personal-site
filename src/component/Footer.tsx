@@ -15,12 +15,12 @@ export const Footer = (): ReactElement => {
   }
 
   const FooterWrapper = styled.div`
-    margin-top: 3px;
+    margin-top: 8px;
   `;
 
   return (
     <FooterWrapper>
-      <div id="footer" className="footer">
+      <div id="footer" className="footer-home">
         <div className="footer-container">
           <div className="pure-g">
 

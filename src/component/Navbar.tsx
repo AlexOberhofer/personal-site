@@ -14,10 +14,10 @@ export const Navbar = (): ReactElement => {
         href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css"
       />
       <link
-        rel="stylesheet"
-        href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-        integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
-      ></link>
+    rel="stylesheet"
+    href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ"
+    />
 
       <div className="custom-menu-wrapped">
         <div className="pure-menu custom-menu custom-menu-top">
@@ -34,7 +34,7 @@ export const Navbar = (): ReactElement => {
                 <Link className="pure-menu-link" to="/">Home</Link>
             </li>
             <li className="pure-menu-item">
-                <Link className="pure-menu-link" to="/gnuboy">GNUBoy</Link>
+                <Link className="pure-menu-link" to="/gnuboy">SDL 2 Ports</Link>
             </li>
             <li className="pure-menu-item">
                 <Link className="pure-menu-link" to="/projects">Projects</Link>

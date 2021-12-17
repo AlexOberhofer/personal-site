@@ -4,6 +4,13 @@ import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
+import gplLogo from "../images/badges/buttongnugpl.png";
+import bytePusher from "../images/sprites.gif";
+import pyLife from "../images/conway.gif";
+import doom from "../images/ultimatedoom.png";
+import invaders from "../images/attract.png";
+import chip8 from "../images/screenshot.png";
+import gb from "../images/blue.png";
 import {Github} from "@styled-icons/bootstrap/Github";
 
 export const Projects = (): ReactElement => {
@@ -56,7 +63,7 @@ export const Projects = (): ReactElement => {
                             <div className="pure-g">
                                 <div className="pure-u-1 pure-u-md-1-2 proj-license">
                                     <a href="https://choosealicense.com/licenses/gpl-2.0/">
-                                        <img alt="GPL" src="../images/badges/buttongnugpl.png"/>
+                                        <img alt="GPL" src={gplLogo}/>
                                     </a>
                                 </div>
                                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
@@ -83,7 +90,7 @@ export const Projects = (): ReactElement => {
                             <b/>
                             <br/>
                             <img
-                                src="https://raw.githubusercontent.com/AlexOberhofer/SDL2-GNUBoy/master/docs/blue.PNG"
+                                src={gb}
                                 width="300"
                                 alt="sdl2gnuboy"
                             />
@@ -117,7 +124,7 @@ export const Projects = (): ReactElement => {
                             <div className="pure-g">
                                 <div className="pure-u-1 pure-u-md-1-2 proj-license">
                                     <a href="https://choosealicense.com/licenses/gpl-3.0/">
-                                        <img alt="GPL" src="../images/badges/buttongnugpl.png"/>
+                                        <img alt="GPL" src={gplLogo}/>
                                     </a>
                                 </div>
                                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
@@ -144,7 +151,7 @@ export const Projects = (): ReactElement => {
                             <b/>
                             <br/>
                             <img
-                                src="https://raw.githubusercontent.com/AlexOberhofer/Chip-8-Emulator/master/doc/screenshot.png"
+                                src={chip8}
                                 width="300"
                                 alt="Chip 8"
                             />
@@ -201,7 +208,7 @@ export const Projects = (): ReactElement => {
                             <br/>
                             <br/>
                             <img
-                                src="https://raw.githubusercontent.com/AlexOberhofer/Space-Invaders/master/doc/attract.PNG"
+                                src={invaders}
                                 alt="Space Invaders"
                             />
                             <br/>
@@ -226,7 +233,7 @@ export const Projects = (): ReactElement => {
 
                             <h4>Summary:</h4>
                             <p>
-                                An Exporation of the DOOM Linux port source code using SDL2 and
+                                An Exploration of the DOOM Linux port source code using SDL2 and
                                 the original open source release of DOOM by Id Software.
                             </p>
 
@@ -234,7 +241,7 @@ export const Projects = (): ReactElement => {
                             <div className="pure-g">
                                 <div className="pure-u-1 pure-u-md-1-2 proj-license">
                                     <a href="https://opensource.org/licenses/gpl-2.0.php">
-                                        <img alt="GPL" src="../images/badges/buttongnugpl.png"/>
+                                        <img alt="GPL" src={gplLogo}/>
                                     </a>
                                 </div>
                                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
@@ -262,7 +269,7 @@ export const Projects = (): ReactElement => {
                             <br/>
                             <br/>
                             <img
-                                src="https://raw.githubusercontent.com/AlexOberhofer/sdl2-doom/master/docs/ultimatedoom.PNG"
+                                src={doom}
                                 alt="Ultimate DOOM"
                             />
                             <br/>
@@ -300,7 +307,7 @@ export const Projects = (): ReactElement => {
                             <br/>
                             <br/>
                             <img
-                                src="https://raw.githubusercontent.com/AlexOberhofer/pylife/master/doc/conway.gif"
+                                src={pyLife}
                                 alt="Conway's Game of Life"
                                 width="300"
                             />
@@ -332,7 +339,7 @@ export const Projects = (): ReactElement => {
                             <div className="pure-g">
                                 <div className="pure-u-1 pure-u-md-1-2 proj-license">
                                     <a href="https://choosealicense.com/licenses/gpl-3.0/">
-                                        <img alt="GPL" src="../images/badges/buttongnugpl.png"/>
+                                        <img alt="GPL" src={gplLogo}/>
                                     </a>
                                 </div>
                                 <div className="pure-u-1 pure-u-md-1-2 proj-repo">
@@ -359,7 +366,7 @@ export const Projects = (): ReactElement => {
                             <b/>
                             <br/>
                             <img
-                                src="https://raw.githubusercontent.com/AlexOberhofer/Bytepusher/master/doc/sprites.gif"
+                                src={bytePusher}
                                 alt="bytepusher"
                             />
                             <br/>

@@ -240,7 +240,20 @@ div#home-well-div a:visited {
     font-size: 75%;
     flex-direction: column;
     position: relative;
-}  
+}
+
+.footer-home{
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background: #2d3e50;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 75%;
+    flex-direction: column;
+    position: fixed;
+}
 
 .footer-container{
     width: 60%;
