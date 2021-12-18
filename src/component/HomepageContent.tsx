@@ -12,19 +12,19 @@ const PageFlexCol = styled.div`
 const HomeFooter = styled(footer)`
   position: absolute;
   bottom: 0;
+  flex: 1;
+  justify-content: flex-end;
 `;
 
 export const HomePageContent = (): ReactElement => {
   return (
-    <>
-        <PageFlexCol>
-      <Navbar />
-      <body>
-        <Home />
-      </body>
-      <HomeFooter />
+      <PageFlexCol>
+          <Navbar />
+            <body>
+                <Home />
+            </body>
+          <HomeFooter />
         </PageFlexCol>
-    </>
   );
 };
 

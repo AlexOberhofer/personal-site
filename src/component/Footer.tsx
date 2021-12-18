@@ -20,7 +20,7 @@ export const Footer = (): ReactElement => {
 
   return (
     <FooterWrapper>
-      <div id="footer" className="footer-home">
+      <div id="footer" className="footer">
         <div className="footer-container">
           <div className="pure-g">
 
