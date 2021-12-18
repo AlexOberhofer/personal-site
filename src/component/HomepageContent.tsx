@@ -19,7 +19,7 @@ const HomeFooter = styled(Footer)`
   color: #fff;
   font-size: 75%;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
 `;
 
 export const HomePageContent = (): ReactElement => {
@@ -29,7 +29,6 @@ export const HomePageContent = (): ReactElement => {
             <body>
                 <Home />
             </body>
-          <HomeFooter />
         </PageFlexCol>
   );
 };
