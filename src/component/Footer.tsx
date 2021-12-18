@@ -7,7 +7,9 @@ import firefoxBadge from "../images/badges/get_firefox.png";
 import { ReactElement } from "react";
 import styled from "styled-components";
 
-export const Footer = (): ReactElement => {
+export const Footer = (props: any): ReactElement => {
+
+    const {...rProps } = props;
 
   const getYear = (): number => {
     let d = new Date();
@@ -20,7 +22,7 @@ export const Footer = (): ReactElement => {
 
   return (
     <FooterWrapper>
-      <div id="footer" className="footer">
+      <div id="footer" className="footer" {...rProps }>
         <div className="footer-container">
           <div className="pure-g">
 

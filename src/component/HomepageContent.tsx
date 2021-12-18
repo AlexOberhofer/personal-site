@@ -1,5 +1,5 @@
 import { Navbar } from "./Navbar";
-import footer, { Footer } from "./Footer";
+import { Footer } from "./Footer";
 import Home from "../pages/Home";
 import { ReactElement } from "react";
 import styled from "styled-components";
@@ -9,11 +9,17 @@ const PageFlexCol = styled.div`
     flex-direction: column;
 `;
 
-const HomeFooter = styled(footer)`
-  position: absolute;
+const HomeFooter = styled(Footer)`
+  display: flex;
   bottom: 0;
-  flex: 1;
-  justify-content: flex-end;
+  width: 100%;
+  height: 25px;
+  background: #2d3e50;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 75%;
+  flex-direction: column;
+  position: absolute;
 `;
 
 export const HomePageContent = (): ReactElement => {
