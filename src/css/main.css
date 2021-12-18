@@ -104,6 +104,7 @@ div#home-well-div a:visited {
 .home-well {
     border-style: solid;
     color: #2d3e50;
+    margin-bottom: 15px;
 }
 
 .home-well-heading {
@@ -123,7 +124,7 @@ div#home-well-div a:visited {
 .page-title-text {
     text-align: center;
     color: #2d3e50;
-    margin-top: 35px;
+    margin-top: 30px;
 }
 
 .image-license {
@@ -152,7 +153,7 @@ div#home-well-div a:visited {
     text-align: center;
     background-size: cover;
     background-color: #2d3e50;
-    height: 600px;
+    height: 900px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -163,7 +164,7 @@ div#home-well-div a:visited {
     text-align: center;
     background-size: cover;
     background-color: #2d3e50;
-    height: 600px;
+    height: 900px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -174,7 +175,7 @@ div#home-well-div a:visited {
     text-align: center;
     background-size: cover;
     background-color: #2d3e50;
-    height: 600px;
+    height: 900px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -220,12 +221,6 @@ div#home-well-div a:visited {
     margin-right: 3px;
     color: white;
     background: rgb(45, 62, 80); /* Fix this... probably read the docs... */
-}
-
-@media only screen and (max-width: 1334px) {
-    .footer {
-        display: none;
-    }
 }
 
 /* Footer CSS */

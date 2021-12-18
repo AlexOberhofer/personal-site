@@ -7,6 +7,7 @@ import styled from "styled-components";
 const PageFlexCol = styled.div`
     display: flex;
     flex-direction: column;
+    height: 100vh;
 `;
 
 const HomeFooter = styled(Footer)`
@@ -19,7 +20,8 @@ const HomeFooter = styled(Footer)`
   color: #fff;
   font-size: 75%;
   flex-direction: column;
-  position: fixed;
+  position: relative;
+  flex-grow: 1;
 `;
 
 export const HomePageContent = (): ReactElement => {
@@ -28,6 +30,7 @@ export const HomePageContent = (): ReactElement => {
           <Navbar />
             <body>
                 <Home />
+            <Footer />
             </body>
         </PageFlexCol>
   );

@@ -10,6 +10,9 @@ import { Mail } from "@styled-icons/heroicons-outline/Mail";
 import { Github } from "@styled-icons/bootstrap/Github";
 import { Gitlab } from "@styled-icons/fa-brands/Gitlab";
 import { Linkedin } from "@styled-icons/bootstrap/Linkedin";
+import tsLogo from "../images/ts-logo-128.png";
+import pure from "../images/logo_pure.png";
+import react from "../images/logo512.png";
 
 const AlexImg = styled.img`
   width: 300px;
@@ -227,8 +230,41 @@ export const About = (): ReactElement => {
                         University to study computer science and mathematics.
                     </p>
                 </div>
+
+                <br />
+                <div className="about-text">
+                    <h1>About this Website:</h1>
+
+                    <h3>This website is built with:</h3>
+
+                    <div className="pure-g">
+                        <div className="pure-u-1-3 home-quarter">
+                            <a target="_blank" rel="noreferrer" href="https://www.typescriptlang.org/">
+                                <img className="homepage-logo pure-img" alt="Typescript"
+                                     width="55"
+                                     src={tsLogo}/>
+                            </a>
+                        </div>
+                        <div className="pure-u-1-3 home-quarter">
+                            <a title="Pure CSS" target="_blank" rel="noreferrer" href="https://purecss.io/">
+                                <img className="homepage-logo pure-img" alt="pure"
+                                     width="140"
+                                     src={pure}/>
+                            </a>
+                        </div>
+                        <div className="pure-u-1-3 home-quarter">
+                            <a title="Go" target="_blank" rel="noreferrer" href="https://reactjs.org/">
+                                <img className="homepage-logo pure-img"
+                                     width="60"
+                                     src={react}
+                                     alt="react"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <br />
+
         </>
     );
 };

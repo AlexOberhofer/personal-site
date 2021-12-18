@@ -34,6 +34,9 @@ export const Home = (): ReactElement => {
                 <p>Below are links to my Github and LinkedIn, as well a selection links to my Github projects. Resume
                 available upon request.<br/>
                 </p>
+
+                <p>Thanks for checking out my page!</p>
+
                 <p>
                     Email Me: <a href="mailto:alexmoberhofer@gmail.com"><Mail height="30"/></a>
                 </p>
@@ -120,35 +123,6 @@ export const Home = (): ReactElement => {
                             href="https://github.com/AlexOberhofer/bytepusher"
                         >
                             Bytepusher
-                        </a>
-                    </div>
-                </div>
-
-                <p>Thanks for checking out my page!</p>
-
-                <h5>This website is built with:</h5>
-
-                <div className="pure-g">
-                    <div className="pure-u-1-3 home-quarter">
-                        <a target="_blank" rel="noreferrer" href="https://www.typescriptlang.org/">
-                            <img className="homepage-logo pure-img" alt="Typescript"
-                                 width="55"
-                                 src={tsLogo}/>
-                        </a>
-                    </div>
-                    <div className="pure-u-1-3 home-quarter">
-                        <a title="Pure CSS" target="_blank" rel="noreferrer" href="https://purecss.io/">
-                            <img className="homepage-logo pure-img" alt="pure"
-                                 width="140"
-                                 src={pure}/>
-                        </a>
-                    </div>
-                    <div className="pure-u-1-3 home-quarter">
-                        <a title="Go" target="_blank" rel="noreferrer" href="https://reactjs.org/">
-                            <img className="homepage-logo pure-img"
-                                 width="60"
-                                 src={react}
-                                 alt="react"/>
                         </a>
                     </div>
                 </div>

@@ -16,8 +16,8 @@ export const AboutPageContent = (): ReactElement => {
                 <Navbar/>
                     <body>
                         <About/>
+                        <Footer />
                     </body>
-                <Footer/>
             </PageFlexCol>
         </>
     );

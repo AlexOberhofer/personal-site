@@ -16,8 +16,8 @@ export const GnuboyPageContent = (): ReactElement => {
                 <Navbar/>
                     <body>
                         <Gnuboy/>
+                        <Footer />
                     </body>
-                <Footer/>
             </PageFlexCol>
         </>
     );

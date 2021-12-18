@@ -16,8 +16,8 @@ export const ProjectPageContent = (): ReactElement => {
                 <Navbar/>
                     <body>
                         <Projects/>
+                        <Footer />
                     </body>
-                <Footer/>
             </PageFlexCol>
         </>
     );
