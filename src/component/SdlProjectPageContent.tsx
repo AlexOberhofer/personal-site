@@ -1,6 +1,6 @@
 import {Navbar} from "./Navbar";
 import {Footer} from "./Footer";
-import Gnuboy from "../pages/Gnuboy";
+import SdlProjects from "../pages/SdlProjects";
 import {ReactElement} from "react";
 import styled from "styled-components";
 
@@ -9,13 +9,13 @@ const PageFlexCol = styled.div`
   flex-direction: column;
 `
 
-export const GnuboyPageContent = (): ReactElement => {
+export const SdlProjectPageContent = (): ReactElement => {
     return (
         <>
             <PageFlexCol>
                 <Navbar/>
                     <body>
-                        <Gnuboy/>
+                        <SdlProjects/>
                         <Footer />
                     </body>
             </PageFlexCol>
@@ -23,4 +23,4 @@ export const GnuboyPageContent = (): ReactElement => {
     );
 };
 
-export default GnuboyPageContent;
+export default SdlProjectPageContent;

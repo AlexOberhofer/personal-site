@@ -2,7 +2,7 @@ import "../css/pure-min.css";
 import "../css/normalize.css";
 import "../css/grids-responsive-min.css";
 import "../css/main.css";
-import "../css/gnuboy.css";
+import "../css/sdl-projects.css";
 import { ReactElement } from "react";
 import pinball from "../images/pinball.gif"
 import tetris from "../images/tetris.png";
@@ -36,7 +36,7 @@ const GitLogo = styled(Github)`
   padding-right: 10px;
 `
 
-export const Gnuboy = (): ReactElement => {
+export const SdlProjects = (): ReactElement => {
   return (
     <>
       <h1 className="gnuboy-title">SDL2 Ports </h1>
@@ -206,4 +206,4 @@ export const Gnuboy = (): ReactElement => {
   );
 };
 
-export default Gnuboy;
+export default SdlProjects;

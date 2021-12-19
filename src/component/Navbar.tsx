@@ -34,7 +34,7 @@ export const Navbar = (): ReactElement => {
                 <Link className="pure-menu-link" to="/">Home</Link>
             </li>
             <li className="pure-menu-item">
-                <Link className="pure-menu-link" to="/gnuboy">SDL 2 Ports</Link>
+                <Link className="pure-menu-link" to="/sdl-projects">SDL 2 Ports</Link>
             </li>
             <li className="pure-menu-item">
                 <Link className="pure-menu-link" to="/projects">Projects</Link>

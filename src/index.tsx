@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import HomepageContent from "./component/HomepageContent";
 import ProjectsPageContent from "./component/ProjectPageContent";
-import GnuboyPageContent from "./component/GnuboyPageContent";
+import SdlProjectPageContent from "./component/SdlProjectPageContent";
 import { AboutPageContent } from "./component/AboutPageContent";
 import Icon from "./images/icon.png";
 
@@ -28,8 +28,8 @@ const App = (): ReactElement => {
             <ProjectsPageContent />
           </Route>
 
-          <Route path="/gnuboy">
-            <GnuboyPageContent />
+          <Route path="/sdl-projects">
+            <SdlProjectPageContent />
           </Route>
 
           <Route path="/about">
