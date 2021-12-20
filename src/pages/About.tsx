@@ -173,7 +173,7 @@ export const About = (): ReactElement => {
                             / web development tools such as React, Typescript, and other web frameworks.
                             I am also interested in Docker and it's possible uses to aid my development.
                             In my free time you can usually find me programming a side project, playing video games,
-                            fly fishing, or hanging out with my Australian Shepherd Brookie.
+                            fly fishing, or hanging out with my Australian Shepherd, Brookie.
                         </p>
                         <p>You can find my latest development experiments /
                             projects <a href="https://github.com/AlexOberhofer/">here</a>.
@@ -199,12 +199,6 @@ export const About = (): ReactElement => {
                         generally devote my time to developing or porting retro gaming
                         software and emulators. You can check out some of my projects at my
                         github page on the sidebar.
-                    </p>
-
-                    <p>
-                        All of my projects are released under open source licenses. Please
-                        feel free to exercise your rights within the terms of each projects'
-                        license when using the code. Enjoy!
                     </p>
 
                     <h1>Early Development Experience:</h1>

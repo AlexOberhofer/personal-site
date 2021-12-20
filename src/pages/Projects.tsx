@@ -56,7 +56,7 @@ export const Projects = (): ReactElement => {
                         <div className="pure-u-1 pure-u-md-1-2">
                             <h4>Summary:</h4>
                             <p>
-                                A modern port of the classic gnuboy emulator. For Windows and *nix.
+                                A modern port of the classic gnuboy emulator. For Windows, Mac and *nix.
                             </p>
 
                             <h4>Links:</h4>
@@ -114,10 +114,7 @@ export const Projects = (): ReactElement => {
                         <div className="pure-u-1 pure-u-md-1-2">
                             <h4>Summary:</h4>
                             <p>
-                                Chip 8 was my first emulation project. I would love to go back
-                                and touch up this project as I have a refactored branch that
-                                will be merged into master and released as a new version when
-                                the windows cross build is completed.
+                                A Chip 8 implementation in C using SDL2.
                             </p>
 
                             <h4>Links:</h4>
@@ -174,9 +171,8 @@ export const Projects = (): ReactElement => {
                         <div className="pure-u-1 pure-u-md-1-2">
                             <h4>Summary:</h4>
                             <p>
-                                Space Invaders is a software recreation of the origial Space
-                                Invaders hardware. It emulates the intel 8080 microprocessor and
-                                any specialized arcade hardware. Written in C.
+                                Space Invaders is an emulation of the original Space
+                                Invaders arcade hardware. It emulates the Intel 8080 microprocessor.
                             </p>
 
                             <h4>Links:</h4>
@@ -233,8 +229,8 @@ export const Projects = (): ReactElement => {
 
                             <h4>Summary:</h4>
                             <p>
-                                An Exploration of the DOOM Linux port source code using SDL2 and
-                                the original open source release of DOOM by Id Software.
+                                A multiplatform DOOM source port source using SDL2 and derived from
+                                the open source release of DOOM by Id Software.
                             </p>
 
                             <h4>Links:</h4>
@@ -331,7 +327,7 @@ export const Projects = (): ReactElement => {
                         <div className="pure-u-1 pure-u-md-1-2">
                             <h4>Summary:</h4>
                             <p>
-                                A simple BytePusher implementation.<br/>
+                                A Bytepusher implementation in C.<br/>
                                 <a href="https://esolangs.org/wiki/BytePusher">BytePusher</a>
                             </p>
 

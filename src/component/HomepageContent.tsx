@@ -10,20 +10,6 @@ const PageFlexCol = styled.div`
     height: 100vh;
 `;
 
-const HomeFooter = styled(Footer)`
-  display: flex;
-  bottom: 0;
-  width: 100%;
-  height: 25px;
-  background: #2d3e50;
-  padding: 10px 0;
-  color: #fff;
-  font-size: 75%;
-  flex-direction: column;
-  position: relative;
-  flex-grow: 1;
-`;
-
 export const HomePageContent = (): ReactElement => {
   return (
       <PageFlexCol>

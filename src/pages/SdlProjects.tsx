@@ -167,9 +167,10 @@ export const SdlProjects = (): ReactElement => {
               </SubHeaderText>
           </SubHeader>
 
-          <p>Something about doom...</p>
-
-          <p>Some other statement about doom...</p>
+          <p>Doom is awesome. This project is my exploration of the Doom source code. It aims to be
+              somewhat portable, and to reimplement the game interface with SDL2. This project
+              derived from Chocolate Doom.
+          </p>
 
           <h2>Screenshots:</h2>
 
